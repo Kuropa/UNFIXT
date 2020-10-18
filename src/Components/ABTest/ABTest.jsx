@@ -51,7 +51,7 @@ const ABTest = (props) => {
 
     let audioFiles = props.audio.map(el => (
         <div>
-            <audio id='before' ref={Before} src={el.before}>Your browser does not support the<code>audio</code></audio>
+            <audio onEnded={() => setBackground(playBack)} id='before' ref={Before} src={el.before}>Your browser does not support the<code>audio</code></audio>
             <audio id='after' ref={After} src={el.after} muted='muted'>Your browser does not support the<code>audio</code></audio>
         </div>
     ))
