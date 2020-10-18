@@ -1,5 +1,29 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Для конкретного пользователя
+** / .idea / ** / workspace.xml
+** / .idea / ** / tasks.xml
+** / .idea / полка / *
+** / .idea / словари
+** / .idea / httpRequests /
+
+# Конфиденциальные файлы или файлы с большим оттоком
+** / .idea / ** / dataSources /
+** / .idea / ** / dataSources.ids
+** / .idea / ** / dataSources.xml
+** / .idea / ** / dataSources.local.xml
+** / .idea / ** / sqlDataSources.xml
+** / .idea / ** / dynamic.xml
+
+# Райдер
+# Rider автоматически генерирует файлы .iml и contentModel.xml
+** / .idea / ** / * .iml
+** / .idea / ** / contentModel.xml
+** / .idea / ** / modules.xml
+
+* .suo
+* .user
+
 # dependencies
 /node_modules
 /.pnp
