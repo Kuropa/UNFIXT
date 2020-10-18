@@ -1,0 +1,87 @@
+.formWrap {
+    margin: 50px 0px;
+}
+.header {
+    color: #FFFFFF;
+    font-weight: 900;
+}
+form {
+    text-align: center;
+}
+
+input {
+    background-color: #1C1B1B;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    padding: 6px 0px;
+    text-indent: 0px;
+    width: 100%;
+    border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+input:focus {
+    color: white;
+    border-bottom: 1px solid turquoise;
+}
+
+input:focus label{
+    bottom: 100px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px  #000000 inset;
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.submitText {
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1240px) {
+    .formWrap {
+        margin: 50px 0px;
+    }
+    .header {
+        color: #FFFFFF;
+        font-weight: 900;
+    }
+    form {
+        text-align: center;
+    }
+
+    input {
+        width: 30vw;
+        margin-bottom: 25px;
+    }
+
+    ::-webkit-input-placeholder {
+        color: white;
+    }
+
+    input:focus {
+        color: white;
+        border-bottom: 1px solid turquoise;
+    }
+
+    input:focus label{
+        bottom: 100px;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0px 1000px  #1C1B1B inset;
+        -webkit-text-fill-color: white;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}

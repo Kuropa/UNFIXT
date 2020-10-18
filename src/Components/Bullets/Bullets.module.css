@@ -1,0 +1,24 @@
+.bullets {
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 25px;
+    overflow-y: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .bullets {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bullets {
+        padding: 100px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .bullets {
+        text-align: -webkit-center;
+    }
+}

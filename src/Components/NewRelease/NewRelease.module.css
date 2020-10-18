@@ -1,0 +1,95 @@
+.newRelease {
+    padding: 25px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.blue {
+    color: #10ffff;
+}
+
+.icon {
+    width: 35px;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .newRelease {
+        padding: 50px;
+        text-align: -webkit-center;
+    }
+
+    .cover {
+        width: 300px;
+    }
+
+    .textWrapper {
+        text-align: -webkit-center;
+    }
+
+    .iconWrapper {
+        padding: 25px 250px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .newRelease {
+        padding: 50px 100px;
+        display: flex;
+    }
+
+    .cover {
+        width: 500px;
+    }
+
+    .textWrapper {
+        text-align: center;
+        width: 350px;
+        padding-top: 50px;
+    }
+
+    .iconWrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 80px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .newRelease {
+        padding: 100px;
+    }
+
+    .bold {
+        margin-bottom: 25px;
+    }
+
+    .cover {
+        width: 650px;
+    }
+
+    .textWrapper {
+        padding-top: 100px;
+    }
+
+    .iconWrapper {
+        padding: 25px 80px;
+    }
+
+    .icon {
+        transition: all .2s ease-in-out;
+    }
+
+    .icon:hover {
+        transform: scale(1.3);
+    }
+}

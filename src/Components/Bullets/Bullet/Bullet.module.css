@@ -1,0 +1,45 @@
+.bullet {
+    padding: 25px 10px;
+    display: block;
+}
+
+.graphic {
+    width: 100px;
+}
+
+.bild {
+    font-weight: 900;
+}
+
+.description {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+    .bullet {
+        padding: 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .graphic {
+        width: 300px;
+    }
+
+    .bild {
+        width: 300px;
+    }
+
+    .description {
+        font-weight: 300;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .bullet {
+        width: 70%;
+        padding: 50px 10px;
+    }
+}

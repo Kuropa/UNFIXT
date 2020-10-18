@@ -1,0 +1,69 @@
+{
+    "menu/about": "ABOUT",
+    "menu/music": "MUSIC",
+    "menu/contacts": "CONTACTS",
+    "offer/title": "LOOKING FOR A",
+    "offer/title_b": "WONDERFUL",
+    "offer/title_bold": "SOUND?",
+    "slider/title_b": "New",
+    "slider/title": "Release!",
+    "slider/title_s_b": "out now",
+    "slider/title_s": "on Spotify, Apple music and YouTube!",
+    "bullet/4/title": "MIXING",
+    "bullet/4/title_s": "WAV + Vocal, Multi-Track + Vocal, Vocal Tuning",
+    "bullet/4/description": "Manual adjustment of pitch and formants of the vocal line, which allows to preserve the natural timbre of voice and pronunciation.",
+    "bullet/3/title": "MASTERING",
+    "bullet/3/title_s": "WAV 16 bit /44100 WAV 16 bit /44100 -1 db for streaming. MP3 320 kbps",
+    "bullet/3/description": "",
+    "bullet/2/title": "ARRANGEMENT",
+    "bullet/2/title_s": "WAV 16 bit /44100 + WAV Multi-Track",
+    "bullet/2/description": "The rights to music are transferred to the artist, but also remain with the author. Music can be used for any purpose.",
+    "bullet/1/title": "SOUND PRODUCTION",
+    "bullet/1/title_s": "",
+    "bullet/1/description": "A detailed study of all instruments. Change and add batches, processing effects. Possible additional recording of live instruments (electric guitar, acoustic guitar, violin)",
+    "reviews/title": "Reviews",
+    "reviews/review": "Thank you for the cool intro, with whom i already give more than one concert!",
+    "contacts/title": "Contacts",
+    "contacts/title_2": "Socials",
+    "contacts/title_3": "Send a Mail",
+    "contacts/form/name": "Name",
+    "contacts/form/email": "Email",
+    "contacts/form/message": "Message",
+    "contacts/form/button": "SEND",
+    "contacts/form/submited": "Thanks!",
+    "contacts/form/unsubmited": "Ooops! There was an error.",
+    "music/title": "Latest Release",
+    "AB/button/before": "Before",
+    "AB/button/after": "After",
+
+
+
+
+
+
+
+
+
+
+    "beats/beatforsale/title": "Beats For Sale",
+    "beats/licening/title": "Licesing Info",
+    "beats/licening/1/name": "Basic MP3",
+    "beats/licening/1/price": "$30",
+    "beats/licening/1/bild": "MP3 320kbps",
+    "beats/licening/1/description": "Must Credit 'Prod By Unfixt' One audio Tag",
+    "beats/licening/2/name": "Basic WAV",
+    "beats/licening/2/price": "$50",
+    "beats/licening/2/bild": "WAV 16 bit /44100 + MP3 320 kbps",
+    "beats/licening/2/description": "Must Credit 'Prod By Unfixt' One audio Tag",
+    "beats/licening/3/name": "Track Out",
+    "beats/licening/3/price": "$100",
+    "beats/licening/3/bild": "WAV 16 bit /44100 + WAV 16 bit /44100 Multi-Track",
+    "beats/licening/3/description": "Must Credit 'Prod By Unfixt' One audio Tag",
+    "beats/licening/4/name": "Exclusive",
+    "beats/licening/4/price": "MAKE AN OFFER",
+    "beats/licening/4/bild": "WAV 16 bit /44100 + WAV 16 bit /44100 Multi-Track",
+    "beats/licening/4/description": "Must Credit 'Prod By Unfixt' Beat is removet from the store",
+    "beats/licening/button": "READ LICENSE",
+
+    "music/title_2": "Playlist"
+}

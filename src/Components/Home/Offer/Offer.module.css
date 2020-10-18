@@ -1,0 +1,56 @@
+ .wrapper {
+     padding: 25px 25px 10px 25px;
+ }
+
+ .border {
+     border: 3px solid #10ffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 60vh;
+ }
+
+ .offer {
+     width: 90%;
+     color: #ffffff;
+     font-weight: 300;
+     font-size: 48px;
+ }
+
+ .bold {
+     font-weight: 900;
+ }
+
+ .blue {
+     color: #10ffff;
+ }
+
+ @media screen and (min-width: 768px) {
+    .wrapper {
+        padding: 50px 50px 25px 50px;
+    }
+
+    .border {
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        padding: 100px 100px 25px 100px;
+    }
+
+    .border {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .wrapper {
+        padding: 100px 100px 50px 100px;
+    }
+
+    .border {
+        height: 60vh;
+    }
+}

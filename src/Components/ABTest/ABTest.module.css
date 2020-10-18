@@ -1,0 +1,24 @@
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.beforeButton, .afterButton {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    cursor: pointer;
+    margin: 25px;
+}
+.play {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
