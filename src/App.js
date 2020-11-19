@@ -10,7 +10,7 @@ import NewRelease from "./Components/NewRelease/NewRelease";
 import Reviews from "./Components/Reviews/Reviews";
 import Contacts from "./Components/Contacts/Contacts";
 import Music from "./Components/Music/Music";
-import ABTest from "./Components/ABTest/ABTest";
+import Player from "./Components/Player/Player";
 
 function App(props) {
     AOS.init()
@@ -18,13 +18,13 @@ function App(props) {
         <div>
             {/*<Canvas/>*/}
             <Header/>
-            {/*<Home/>*/}
-            {/*<Bullets/>*/}
-            <ABTest audio={props.state.Audio}/>
-            {/*<NewRelease newRelease={props.state.NewRelease}/>*/}
-            {/*<Music music={props.state.Music}/>*/}
-            {/*<Reviews reviewers={props.state.Reviews}/>*/}
-            {/*<Contacts socials={props.state.Socials}/>*/}
+            <Home/>
+            <Bullets/>
+            {/*<Player audio={props.state.Audio}/>*/}
+            <NewRelease newRelease={props.state.NewRelease}/>
+            <Music music={props.state.Music}/>
+            <Reviews reviewers={props.state.Reviews}/>
+            <Contacts socials={props.state.Socials}/>
         </div>
     );
 }

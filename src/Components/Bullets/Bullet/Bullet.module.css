@@ -3,6 +3,14 @@
     display: block;
 }
 
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right;
+}
+
 .graphic {
     width: 100px;
 }
@@ -13,6 +21,19 @@
 
 .description {
     font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.price {
+    width: 300px;
+    padding: 8px 100px;
+    background-color: #10ffff;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.price > p {
+    font-weight: 900;
 }
 
 @media screen and (min-width: 1024px) {
@@ -38,8 +59,20 @@
 }
 
 @media screen and (min-width: 1240px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
     .bullet {
-        width: 70%;
-        padding: 50px 10px;
+        width: 1200px;
+        padding: 80px 10px;
+    }
+
+    .textWrapper {
+        width: 400px;
+    }
+
+    .graphic {
+        width: 400px;
     }
 }

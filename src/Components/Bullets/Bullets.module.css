@@ -5,6 +5,14 @@
     overflow-y: hidden;
 }
 
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
 @media screen and (min-width: 768px) {
     .bullets {
         padding: 50px;
@@ -14,11 +22,12 @@
 @media screen and (min-width: 1024px) {
     .bullets {
         padding: 100px;
+        margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1240px) {
     .bullets {
-        text-align: -webkit-center;
+
     }
 }

@@ -85,8 +85,18 @@ select {
     margin-left: 20px !important;
 }
 
+.waveform {
+    margin-left: 25px;
+    width: 230px;
+}
+
 @media screen and (min-width: 768px) {
     .swiper-container {
         margin-left: auto;
+    }
+
+    .waveform {
+        margin-left: 25px;
+        width: 505px;
     }
 }

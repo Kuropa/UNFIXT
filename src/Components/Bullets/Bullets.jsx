@@ -13,39 +13,41 @@ const Bullets = () => {
             <div className={style.bullets}>
                 <Bullet
                     aos='fade-left'
-                    classes={`${style.left}`}
-                    style={{ textAlign: 'left' }}
+                    classes={style.left}
                     src={soundProd}
                     header={i18n.text('bullet/1/title')}
                     bild={i18n.text('bullet/1/title_s')}
                     description={i18n.text('bullet/1/description')}
+                    price={i18n.text('bullet/1/price')}
                 />
                 <Bullet
                     aos='fade-right'
-                    classes={`${style.right}`}
-                    style={{ textAlign: 'right' }}
+                    classes={style.right}
                     revers={{textAlign: '-webkit-right',flexDirection: 'row-reverse'}}
                     src={arrangement}
                     header={i18n.text('bullet/2/title')}
                     bild={i18n.text('bullet/2/title_s')}
                     description={i18n.text('bullet/2/description')}
+                    price={i18n.text('bullet/2/price')}
                 />
                 <Bullet
                     aos='fade-left'
-                    style={{ textAlign: 'left' }}
+                    classes={style.left}
                     src={mastering}
                     header={i18n.text('bullet/3/title')}
                     bild={i18n.text('bullet/3/title_s')}
                     description={i18n.text('bullet/3/description')}
+                    price={i18n.text('bullet/3/price')}
                 />
                 <Bullet
                     aos='fade-right'
-                    style={{ textAlign: 'right' }}
+                    classes={style.right}
                     revers={{textAlign: '-webkit-right',flexDirection: 'row-reverse'}}
                     src={mixing}
                     header={i18n.text('bullet/4/title')}
                     bild={i18n.text('bullet/4/title_s')}
                     description={i18n.text('bullet/4/description')}
+                    price={i18n.text('bullet/4/price')}
                 />
             </div>
         </div>
