@@ -2,7 +2,6 @@ import React from "react";
 import style from './Bullet.module.css';
 
 const Bullet = (props) => {
-    console.log(props.classes)
     return (
         <div data-aos={props.aos} data-aos-offset='300' className={style.container}>
             <div style={props.revers} className={style.bullet}>

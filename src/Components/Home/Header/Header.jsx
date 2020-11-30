@@ -4,7 +4,7 @@ import style from './Header.module.css'
 import {i18n} from "../../../lib/i18n/i18n";
 
 const Header = () => {
-    const currentLang = localStorage.getItem('lang') || 'EN';
+    const currentLang = localStorage.getItem('lang') || 'RU';
 
     const handleSelectChange = useCallback((e) => {
         localStorage.setItem('lang', e.currentTarget.value);

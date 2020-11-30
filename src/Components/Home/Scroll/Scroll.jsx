@@ -6,7 +6,6 @@ const Scroll = () => {
     return (
         <div>
             <div className={style.wrapper}>
-                <p className={style.skills}>skills</p>
                 <img className={style.mouse} alt='.' src={scroll}/>
             </div>
         </div>

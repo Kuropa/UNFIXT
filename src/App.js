@@ -11,14 +11,16 @@ import Reviews from "./Components/Reviews/Reviews";
 import Contacts from "./Components/Contacts/Contacts";
 import Music from "./Components/Music/Music";
 import Player from "./Components/Player/Player";
+import Examples from "./Components/Examples/Examples";
 
 function App(props) {
     AOS.init()
     return (
         <div>
-            {/*<Canvas/>*/}
+            <Canvas/>
             <Header/>
             <Home/>
+            <Examples examples={props.state.Examples}/>
             <Bullets/>
             {/*<Player audio={props.state.Audio}/>*/}
             <NewRelease newRelease={props.state.NewRelease}/>

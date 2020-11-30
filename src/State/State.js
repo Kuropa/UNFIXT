@@ -21,6 +21,9 @@ import JONY from '../Components/Media/Reviews/jony-yaroslavl.jpg';
 // Аудио для АВ сравнения
 import abbefore from '../Components/Audio/vtbefore.mp3';
 import abafter from '../Components/Audio/vtafter.mp3';
+// Примеры работ
+import audio1 from '../Components/ExamplesAudio/vtafter.mp3';
+import audio2 from '../Components/ExamplesAudio/vtbefore.mp3';
 
 let state = {
     NewRelease: [
@@ -120,8 +123,46 @@ let state = {
             before: abbefore,
             after: abafter
         }
+    ],
+    Examples: [
+        {
+            artistName: 'ARTIST',
+            songName: 'song name',
+            audio: audio1,
+            id: 1,
+        },
+        {
+            artistName: 'ARTIST2',
+            songName: 'song name2',
+            audio: audio2,
+            id: 2,
+        },
+        {
+            artistName: 'ARTIST3',
+            songName: 'song name3',
+            audio: audio1,
+            id: 3,
+        },
+        {
+            artistName: 'ARTIST',
+            songName: 'song name',
+            audio: audio1,
+            id: 4,
+        },
+        {
+            artistName: 'ARTIST',
+            songName: 'song name',
+            audio: audio1,
+            id: 5
+        },
+        {
+            artistName: 'ARTIST',
+            songName: 'song name',
+            audio: audio1,
+            id: 6
+        },
     ]
 
 }
 
-export  default state
+export default state

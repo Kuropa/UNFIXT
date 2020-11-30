@@ -7,14 +7,14 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 60vh;
+     height: 250px;
  }
 
  .offer {
-     width: 90%;
+     width: 100%;
      color: #ffffff;
      font-weight: 300;
-     font-size: 48px;
+     font-size: 40px;
  }
 
  .bold {
@@ -31,13 +31,13 @@
     }
 
     .border {
-        height: 75vh;
+        height: 250px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .wrapper {
-        padding: 100px 100px 25px 100px;
+        padding: 25px 100px;
     }
 
     .border {
@@ -47,10 +47,16 @@
 
 @media screen and (min-width: 1240px) {
     .wrapper {
-        padding: 100px 100px 50px 100px;
+        padding: 50px 100px;
     }
 
     .border {
-        height: 60vh;
+        height: 300px;
     }
 }
+
+ @media screen and (min-width: 1920px) {
+     .border {
+         height: 500px;
+     }
+ }

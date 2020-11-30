@@ -75,7 +75,7 @@ select {
 
 .canvas {
     width: 100vw;
-    height: 90vh;
+    height: 250px;
     position: absolute;
     top: 40px;
     left: 0;
@@ -98,5 +98,26 @@ select {
     .waveform {
         margin-left: 25px;
         width: 505px;
+    }
+    .canvas {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .canvas {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .canvas {
+        height: 365px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .canvas {
+        height: 565px;
     }
 }

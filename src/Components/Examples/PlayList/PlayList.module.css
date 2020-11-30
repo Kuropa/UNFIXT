@@ -1,0 +1,68 @@
+.examplesWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    color: #FFFFFF;
+}
+
+.examples {
+    width: 400px;
+    height: 85px;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+}
+
+.examplesItem {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.white {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.blue {
+    color: #10ffff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.blue > .startButton {
+    opacity: 1;
+}
+
+.startButton {
+    width: 30px;
+    opacity: 0;
+}
+
+.defis {
+    margin: 0px 10px;
+}
+
+@media screen and (min-width: 1240px) {
+    .examplesItem:hover .startButton {
+        opacity: 1;
+    }
+    .white:hover {
+        color: #10ffff;
+    }
+
+    .examples {
+        width: 1000px;
+        height: 80px;
+        overflow-y: scroll;
+        margin-bottom: 50px;
+    }
+}
