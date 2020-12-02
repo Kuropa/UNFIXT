@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 import style from './Reviews.module.css';
 import quote from '../Media/Icon/quote.svg';
-//import {i18n} from "../../lib/i18n/i18n";
 
 const Reviews = (props) => {
     let reviewList = props.reviewers.map(reviewer => (
@@ -18,10 +17,10 @@ const Reviews = (props) => {
         <div>
             <div className={style.reviews}>
                 <div className={style.headerWrap}>
-                    {/*<h1>{i18n.text("reviews/title")}</h1>*/}
-                    <img alt='.' data-aos="fade-right" data-aos-offset='300' src={quote} className={style.quote}/>
+                    {/*<h1>{i18n.text('reviews/title')}</h1>*/}
+                    <img alt='.' data-aos='fade-right' data-aos-offset='300' src={quote} className={style.quote}/>
                 </div>
-                    {reviewList}
+                {reviewList}
             </div>
         </div>
     )

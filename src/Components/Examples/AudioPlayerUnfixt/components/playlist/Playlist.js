@@ -11,10 +11,17 @@ function Playlist() {
         <ul className={style.listStyle}>
           {
             songs.map((song, i) =>
-              <li className={(currentSong === i ? style.selected : '')} key={i} onClick={() => { SetCurrent(i); }}>
+              <li
+                  className={(currentSong === i ? style.selected : '')}
+                  key={i}
+                  onClick={() => { SetCurrent(i); }}>
                 <i></i>
                 <div className={style.songWrapper}>
-                    <img className={style.playHover} src={play} alt=""/>
+                    <img
+                        className={style.playHover}
+                        src={play}
+                        alt=""
+                    />
                     <span>{song[0]}</span>
                 </div>
               </li>

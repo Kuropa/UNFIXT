@@ -7,7 +7,6 @@ import pause from '../../../Media/Icon/pause.svg'
 import prev from '../../../Media/Icon/prev.svg'
 import next from '../../../Media/Icon/next.svg'
 
-
 function Controls() {
 
   // Global State
@@ -19,7 +18,6 @@ function Controls() {
     playing,
     togglePlaying,
     handleEnd,
-
   } = useContext(playerContext)
 
   const audio = useRef('audio_tag');
@@ -90,5 +88,4 @@ function Controls() {
   )
 }
 
-export default Controls
-// <img src={play} className={style.icon} onClick={() => { togglePlaying(); toggleAudio(); }}/>
+export default Controls;
