@@ -64,7 +64,7 @@
         justify-content: center;
     }
     .bullet {
-        width: 1200px;
+        width: 1000px;
         padding: 80px 10px;
     }
 
@@ -74,5 +74,12 @@
 
     .graphic {
         width: 400px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .bullet {
+        width: 1100px;
+        padding: 80px 10px;
     }
 }

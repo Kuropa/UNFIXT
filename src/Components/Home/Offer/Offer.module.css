@@ -14,7 +14,8 @@
      width: 100%;
      color: #ffffff;
      font-weight: 300;
-     font-size: 40px;
+     font-size: 35px;
+     padding: 0px 10px;
  }
 
  .bold {
@@ -32,6 +33,7 @@
 
     .border {
         height: 250px;
+        font-size: 20px;
     }
 }
 
@@ -53,10 +55,18 @@
     .border {
         height: 300px;
     }
+
+    .offer {
+        font-size: 48px;
+    }
 }
 
  @media screen and (min-width: 1920px) {
      .border {
-         height: 500px;
+         height: 600px;
+     }
+
+     .offer {
+         font-size: 68px;
      }
  }

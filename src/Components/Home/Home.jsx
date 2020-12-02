@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Home.module.css';
-import Scroll from "./Scroll/Scroll";
+//import Scroll from "./Scroll/Scroll";
 import Offer from "./Offer/Offer";
 
 const Home = () => {

@@ -1,0 +1,44 @@
+.selected {
+    color: #10ffff;
+}
+
+.selected .playHover {
+    opacity: 1;
+}
+.songWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.playHover {
+    width: 30px;
+    opacity: 0;
+}
+
+li {
+    color: white;
+    cursor: pointer;
+}
+
+.listStyle {
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+}
+
+.listStyle li {
+    padding: 4px 0;
+    font-weight: 450;
+}
+
+.songContainer {
+    cursor: pointer;
+    user-select: none;
+}
+
+@media screen and (min-width: 1920px) {
+    .playlist {
+        width: 1300px;
+        margin: 0 auto;
+    }
+}

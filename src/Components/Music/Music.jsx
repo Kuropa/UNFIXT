@@ -36,7 +36,7 @@ const Music = (props) => {
             <Before/>
             <div className={style.music}>
                 <div className={style.musicWrapper}>
-                    <h1 className={style.header}>{i18n.text("music/title")}</h1>
+                    <h1 className={style.header}><span className={style.title}>{i18n.text("title")}</span>{i18n.text("music/title")}</h1>
                 </div>
                 <Swiper
                     spaceBetween={150}
@@ -46,7 +46,7 @@ const Music = (props) => {
                     {musicList}
                 </Swiper>
             </div>
-            <After/>
+            {/*<After/>*/}
         </div>
     )
 }

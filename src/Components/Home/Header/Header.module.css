@@ -1,8 +1,8 @@
 .header {
     background-color: #1C1B1B;
     padding: 10px 25px;
-    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -15,6 +15,19 @@ nav {
     width: 100px;
     margin-bottom: 10px;
     align-self: center;
+}
+
+.contactsIcon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin: 0px 10px;
 }
 
 .navLink {
@@ -46,6 +59,8 @@ select:hover {
         flex-direction: inherit;
         justify-content: space-between;
         padding: 12px 50px;
+        display: flex;
+        align-items: flex-start;
     }
     nav {
         margin: 0px;
@@ -54,16 +69,25 @@ select:hover {
 
     .logo {
         margin-bottom: 0px;
+        margin-right: 50px;
     }
 }
 
 @media screen and (min-width: 1024px)  {
     .header {
-        padding: 15px 100px;
+        padding: 30px 100px;
     }
 
     nav {
         width: 40%;
+    }
+
+    .icon {
+        margin: 0px 20px;
+    }
+
+    .logo {
+        margin-right: 80px;
     }
 }
 
@@ -72,11 +96,25 @@ select:hover {
         width: 40%;
     }
 
+    .logo {
+        margin-right: 150px;
+    }
+
+    .icon {
+        margin: 0px 40px;
+    }
+
     .navLink {
         transition: .3s linear;
     }
 
     .navLink:hover {
         color: #10ffff;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .logo {
+        margin-right: 300px;
     }
 }

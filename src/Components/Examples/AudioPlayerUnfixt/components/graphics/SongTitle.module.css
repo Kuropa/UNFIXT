@@ -1,0 +1,11 @@
+.header {
+    color: #ffffff;
+    height: 50px;
+}
+
+@media screen and (min-width: 1920px) {
+    .header {
+        width: 1300px;
+        margin: 0 auto;
+    }
+}

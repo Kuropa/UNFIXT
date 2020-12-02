@@ -5,14 +5,18 @@
 }
 
 .musicWrapper {
-    margin-top: 190px;
+    margin-top: 228px;
     width: 60px;
 }
 
 .header {
-    color: #FFFFFF;
+    color: #10ffff;
     transform: rotate(-90deg);
     white-space: nowrap;
+}
+
+.title {
+    color: #ffffff;
 }
 
 .slider {
@@ -159,4 +163,8 @@
         width: 400px;
         height: 400px;
     }
+}
+
+@media screen and (min-width: 1920px) {
+
 }

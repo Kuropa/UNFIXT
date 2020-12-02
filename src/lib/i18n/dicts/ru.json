@@ -1,4 +1,5 @@
 {
+    "title": "D:\\unfixt\\",
     "menu/about": "ЦЕНЫ",
     "menu/music": "МУЗЫКА",
     "menu/contacts": "КОНТАКТЫ",
@@ -10,7 +11,7 @@
     "slider/title": "Релиз!",
     "slider/title_s_b": "доступен",
     "slider/title_s": "на Spotify, Apple music и YouTube!",
-    "examples/title": "Примеры Работ",
+    "examples/title": "примеры работ",
     "bullet/4/title": "СВЕДЕНИЕ",
     "bullet/4/title_s": "WAV + Vocal, Multi-Track + Vocal, Vocal Tuning",
     "bullet/4/description": "Редактирование инструментов, ручная коррекция вокала по высоте и форманте, позволяющая сохранить натуральное звучание тембра голоса и произношения.",
@@ -38,7 +39,7 @@
     "contacts/form/button": "ОТПРАВИТЬ",
     "contacts/form/submited": "Спасибо!",
     "contacts/form/unsubmited": "Ooops! There was an error.",
-    "music/title": "Плейлист",
+    "music/title": "плейлист",
     "AB/button/before": "ДО",
     "AB/button/after": "ПОСЛЕ",
 

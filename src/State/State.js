@@ -10,6 +10,7 @@ import facebook from '../Components/Media/Icon/fb.svg';
 // Мокап диска с новым релизом
 import newCover from '../Components/Media/Img/Disk.png';
 // Авторская музыка обложки
+import Ehe from '../Components/Media/Cover/Paimon Bass House_mini.png'
 import Wonderland from '../Components/Media/Cover/wonderland_mini.png';
 import TimeMachine from '../Components/Media/Cover/Time_Machine_mini.png';
 import FullControl from '../Components/Media/Cover/full_control_mini.png';
@@ -22,20 +23,32 @@ import JONY from '../Components/Media/Reviews/jony-yaroslavl.jpg';
 import abbefore from '../Components/Audio/vtbefore.mp3';
 import abafter from '../Components/Audio/vtafter.mp3';
 // Примеры работ
-import audio1 from '../Components/ExamplesAudio/vtafter.mp3';
-import audio2 from '../Components/ExamplesAudio/vtbefore.mp3';
+import audio1 from '../Components/ExamplesAudio/ANKO переработка аранжировки, сведение мастеринг.wav';
+import audio2 from '../Components/ExamplesAudio/Masha song II intro v3.wav';
+import audio3 from '../Components/ExamplesAudio/стоныпожилойсобаки Зарисовка местности.wav';
+import audio4 from '../Components/ExamplesAudio/Random beat 13 flang.mp3';
+import audio5 from '../Components/ExamplesAudio/Random beat 14 orchestral.wav';
+import audio6 from '../Components/ExamplesAudio/World music untag.wav';
+import audio7 from '../Components/ExamplesAudio/Аранжировка на заказ.wav';
+
 
 let state = {
     NewRelease: [
         {
             img: newCover,
-            title: 'Wonderland',
+            title: 'Ehe Te Nandayo',
             Spotify: 'spotify:artist:65gqGF50z1RJWQmgVU0nEp',
             AppleMusic: 'https://music.apple.com/ru/artist/unfixt/1505885622',
-            YouTube: 'https://www.youtube.com/embed/ZYk1Htp0TFQ',
+            YouTube: 'https://www.youtube.com/embed/LyNjEyC-YN4',
         }
     ],
     Music: [
+        {
+            title: 'Ehe Te Nandayo',
+            href: 'https://www.youtube.com/embed/LyNjEyC-YN4',
+            img: Ehe,
+            genre: 'Bass House',
+        },
         {
             title: 'Wonderland',
             href: 'https://www.youtube.com/embed/ZYk1Htp0TFQ',
@@ -103,11 +116,6 @@ let state = {
             href: 'https://www.instagram.com/unfixtmusic/'
         },
         {
-            img: youtube,
-            title: 'YouTube',
-            href: 'https://www.youtube.com/channel/UCBz7dDysICz71qlxM0Da0NQ'
-        },
-        {
             img: vk,
             title: 'VK',
             href: 'https://vk.com/unfixt'
@@ -125,44 +133,35 @@ let state = {
         }
     ],
     Examples: [
-        {
-            artistName: 'ARTIST',
-            songName: 'song name',
-            audio: audio1,
-            id: 1,
-        },
-        {
-            artistName: 'ARTIST2',
-            songName: 'song name2',
-            audio: audio2,
-            id: 2,
-        },
-        {
-            artistName: 'ARTIST3',
-            songName: 'song name3',
-            audio: audio1,
-            id: 3,
-        },
-        {
-            artistName: 'ARTIST',
-            songName: 'song name',
-            audio: audio1,
-            id: 4,
-        },
-        {
-            artistName: 'ARTIST',
-            songName: 'song name',
-            audio: audio1,
-            id: 5
-        },
-        {
-            artistName: 'ARTIST',
-            songName: 'song name',
-            audio: audio1,
-            id: 6
-        },
+        [
+            'ANKO - переработка аранжировки, сведение мастеринг',
+            audio1
+        ],
+        [
+            'MASHA - song',
+            audio2
+        ],
+        [
+            'стоныпожилойсобаки - Зарисовка местности',
+            audio3
+        ],
+        [
+            'unfixt prod. - measure',
+            audio4
+        ],
+        [
+            'unfixt prod. found',
+            audio5
+        ],
+        [
+            'unfixt prod. - World music',
+            audio6
+        ],
+        [
+            'Аранжировка на заказ',
+            audio7
+        ],
     ]
-
 }
 
 export default state

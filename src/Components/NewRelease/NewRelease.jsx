@@ -8,7 +8,7 @@ import AppleMusic from "./Icon/AppleMusic";
 
 const NewRelease = (props) => {
     let newRelease = props.newRelease.map(el => (
-        <div className={style.container}>
+        <div className={style.container} key={el.title}>
             <div className={style.newRelease}>
                 <p><img data-aos="fade" className={style.cover} src={el.img} alt={el.title}/></p>
                 <div data-aos="fade" className={style.textWrapper}>

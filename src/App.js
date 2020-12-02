@@ -10,7 +10,7 @@ import NewRelease from "./Components/NewRelease/NewRelease";
 import Reviews from "./Components/Reviews/Reviews";
 import Contacts from "./Components/Contacts/Contacts";
 import Music from "./Components/Music/Music";
-import Player from "./Components/Player/Player";
+//import Player from "./Components/Player/Player";
 import Examples from "./Components/Examples/Examples";
 
 function App(props) {

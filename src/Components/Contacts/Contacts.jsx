@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Contacts.module.css';
-import {i18n} from "../../lib/i18n/i18n";
+//import {i18n} from "../../lib/i18n/i18n";
 import Socials from "./Socials/Socials";
 import Form from "./Form/Form";
 import Before from "../BeforeAfter/Before";
@@ -11,7 +11,7 @@ const Contacts = (props) => {
             <Before/>
             <div className={style.contacts}>
                 <div className={style.contactsWrapper}>
-                    <h1 className={style.header}>{i18n.text("contacts/title")}</h1>
+                    {/*<h1 className={style.header}>{i18n.text("contacts/title")}</h1>*/}
                 </div>
                 <div className={style.wrapper}>
                     <Socials socials={props.socials}/>
