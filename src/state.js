@@ -21,7 +21,7 @@ import KDA from '../Components/Media/Cover/KDA_mini.png';
 import JONY from '../Components/Media/Reviews/jony-yaroslavl.jpg';
 
 let state = {
-    NewRelease: [
+    newRelease: [
         {
             img: newCover,
             title: 'Ehe Te Nandayo',
@@ -30,7 +30,7 @@ let state = {
             YouTube: 'https://www.youtube.com/embed/LyNjEyC-YN4',
         }
     ],
-    Music: [
+    music: [
         {
             title: 'Ehe Te Nandayo',
             href: 'https://www.youtube.com/embed/LyNjEyC-YN4',
@@ -75,14 +75,14 @@ let state = {
             genre: 'Synthwave',
         },
     ],
-    Reviews: [
+    reviews: [
         {
             reviewer: 'JONY',
             review: i18n.text("reviews/review"),
             img: JONY,
         }
     ],
-    Socials: [
+    socials: [
         {
             img: youtube,
             title: 'YouTube',
@@ -114,7 +114,7 @@ let state = {
             href: 'https://www.facebook.com/nikita.levanov.7'
         },
     ],
-    Examples: [
+    examples: [
         [
             'ANKO - переработка аранжировки, сведение мастеринг',
             'http://unfixt.ru/static/music/anko.wav'

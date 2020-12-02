@@ -1,5 +1,5 @@
-const anim = () => {
-    let canvas = document.querySelector('.canvas');
+/* eslint-disable */
+export const webEffectAnimation = canvas => () => {
     let can_w = parseInt(canvas.getAttribute('width')),
         can_h = parseInt(canvas.getAttribute('height')),
         ctx = canvas.getContext('2d');
@@ -23,7 +23,7 @@ const anim = () => {
         alpha_f = 0.03,
         alpha_phase = 0,
 
-// Line
+        // Line
         link_line_width = 0.8,
         dis_limit = 260,
         add_mouse_point = true,
@@ -37,7 +37,7 @@ const anim = () => {
             type: 'mouse'
         };
 
-// Random speed
+    // Random speed
     function getRandomSpeed(pos){
         var  min = -1,
             max = 1;
@@ -65,7 +65,7 @@ const anim = () => {
     function randomNumFrom(min, max){
         return Math.random()*(max - min) + min;
     }
-// Random Ball
+    // Random Ball
     function getRandomBall(){
         var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
         switch(pos){
@@ -119,7 +119,7 @@ const anim = () => {
         return Math.ceil(Math.random() * length);
     }
 
-// Draw Ball
+    // Draw Ball
     function renderBalls(){
         Array.prototype.forEach.call(balls, function(b){
             if(!b.hasOwnProperty('type')){
@@ -132,7 +132,7 @@ const anim = () => {
         });
     }
 
-// Update balls
+    // Update balls
     function updateBalls(){
         var new_balls = [];
         Array.prototype.forEach.call(balls, function(b){
@@ -151,12 +151,12 @@ const anim = () => {
         balls = new_balls.slice(0);
     }
 
-// loop alpha
+    // loop alpha
     function loopAlphaInf(){
 
     }
 
-// Draw lines
+    // Draw lines
     function renderLines(){
         var fraction, alpha;
         for (var i = 0; i < balls.length; i++) {
@@ -180,7 +180,7 @@ const anim = () => {
         }
     }
 
-// calculate distance between two points
+    // calculate distance between two points
     function getDisOf(b1, b2){
         var  delta_x = Math.abs(b1.x - b2.x),
             delta_y = Math.abs(b1.y - b2.y);
@@ -188,14 +188,14 @@ const anim = () => {
         return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
     }
 
-// add balls if there a little balls
+    // add balls if there a little balls
     function addBallIfy(){
         if(balls.length < 20){
             balls.push(getRandomBall());
         }
     }
 
-// Render
+    // Render
     function render(){
         ctx.clearRect(0, 0, can_w, can_h);
 
@@ -210,7 +210,7 @@ const anim = () => {
         window.requestAnimationFrame(render);
     }
 
-// Init Balls
+    // Init Balls
     function initBalls(num){
         for(var i = 1; i <= num; i++){
             balls.push({
@@ -224,7 +224,7 @@ const anim = () => {
             });
         }
     }
-// Init Canvas
+    // Init Canvas
     function initCanvas(){
         canvas.setAttribute('width', window.innerWidth);
         canvas.setAttribute('height', window.innerHeight);
@@ -243,7 +243,7 @@ const anim = () => {
     }
     goMovie();
 
-// Mouse effect
+    // Mouse effect
     canvas.addEventListener('mouseenter', function(){
         mouse_in = true;
         balls.push(mouse_ball);
@@ -264,4 +264,3 @@ const anim = () => {
         mouse_ball.y = e.pageY;
     });
 };
-setTimeout(anim, 2000)

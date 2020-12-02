@@ -4,11 +4,7 @@
 }
 
 .left {
-    text-align: left
-}
-
-.right {
-    text-align: right;
+    text-align: left;
 }
 
 .graphic {
@@ -82,4 +78,9 @@
         width: 1100px;
         padding: 80px 10px;
     }
+}
+
+.reverse {
+    text-align: -webkit-right;
+    flex-direction: row-reverse;
 }
