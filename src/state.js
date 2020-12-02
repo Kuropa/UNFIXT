@@ -1,24 +1,24 @@
 // Текст
-import {i18n} from "../lib/i18n/i18n";
+import {i18n} from "./lib/i18n/i18n";
 // Иконки
-import youtube from '../Components/Media/Icon/youtube.svg';
-import soundcloud from '../Components/Media/Icon/SC.svg';
-import spotify from '../Components/Media/Icon/spotify.svg';
-import instagram from '../Components/Media/Icon/instagram.svg';
-import vk from '../Components/Media/Icon/vk.svg';
-import facebook from '../Components/Media/Icon/fb.svg';
+import youtube from './Components/Media/Icon/youtube.svg';
+import soundcloud from './Components/Media/Icon/SC.svg';
+import spotify from './Components/Media/Icon/spotify.svg';
+import instagram from './Components/Media/Icon/instagram.svg';
+import vk from './Components/Media/Icon/vk.svg';
+import facebook from './Components/Media/Icon/fb.svg';
 // Мокап диска с новым релизом
-import newCover from '../Components/Media/Img/Disk.png';
+import newCover from './Components/Media/Img/Disk.png';
 // Авторская музыка обложки
-import Ehe from '../Components/Media/Cover/Paimon Bass House_mini.png'
-import Wonderland from '../Components/Media/Cover/wonderland_mini.png';
-import TimeMachine from '../Components/Media/Cover/Time_Machine_mini.png';
-import FullControl from '../Components/Media/Cover/full_control_mini.png';
-import Negative from '../Components/Media/Cover/negative_mini.png'
-import Fluid from '../Components/Media/Cover/FLUID_mini.png';
-import KDA from '../Components/Media/Cover/KDA_mini.png';
+import Ehe from './Components/Media/Cover/Paimon Bass House_mini.png'
+import Wonderland from './Components/Media/Cover/wonderland_mini.png';
+import TimeMachine from './Components/Media/Cover/Time_Machine_mini.png';
+import FullControl from './Components/Media/Cover/full_control_mini.png';
+import Negative from './Components/Media/Cover/FLUID_mini.png'
+import Fluid from './Components/Media/Cover/FLUID_mini.png';
+import KDA from './Components/Media/Cover/KDA_mini.png';
 // Отзывы
-import JONY from '../Components/Media/Reviews/jony-yaroslavl.jpg';
+import JONY from './Components/Media/Reviews/jony-yaroslavl.jpg';
 
 let state = {
     newRelease: [
