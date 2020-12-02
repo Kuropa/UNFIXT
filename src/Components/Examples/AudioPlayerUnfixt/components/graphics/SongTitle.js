@@ -7,7 +7,7 @@ function SongTitle() {
 
   return (
     <div className={style.header}>
-      <h3 >{songs[currentSong][0]}</h3>
+      <h3>{songs[currentSong][0]}</h3>
     </div>
   )
 }
