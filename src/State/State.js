@@ -19,18 +19,6 @@ import Fluid from '../Components/Media/Cover/FLUID_mini.png';
 import KDA from '../Components/Media/Cover/KDA_mini.png';
 // Отзывы
 import JONY from '../Components/Media/Reviews/jony-yaroslavl.jpg';
-// Аудио для АВ сравнения
-import abbefore from '../Components/Audio/vtbefore.mp3';
-import abafter from '../Components/Audio/vtafter.mp3';
-// Примеры работ
-import audio1 from '../Components/ExamplesAudio/ANKO переработка аранжировки, сведение мастеринг.wav';
-import audio2 from '../Components/ExamplesAudio/Masha song II intro v3.wav';
-import audio3 from '../Components/ExamplesAudio/стоныпожилойсобаки Зарисовка местности.wav';
-import audio4 from '../Components/ExamplesAudio/Random beat 13 flang.mp3';
-import audio5 from '../Components/ExamplesAudio/Random beat 14 orchestral.wav';
-import audio6 from '../Components/ExamplesAudio/World music untag.wav';
-import audio7 from '../Components/ExamplesAudio/Аранжировка на заказ.wav';
-
 
 let state = {
     NewRelease: [
@@ -126,40 +114,34 @@ let state = {
             href: 'https://www.facebook.com/nikita.levanov.7'
         },
     ],
-    Audio: [
-        {
-            before: abbefore,
-            after: abafter
-        }
-    ],
     Examples: [
         [
             'ANKO - переработка аранжировки, сведение мастеринг',
-            audio1
+            'http://unfixt.ru/static/music/anko.wav'
         ],
         [
             'MASHA - song',
-            audio2
+            'http://unfixt.ru/static/music/masha.wav'
         ],
         [
             'стоныпожилойсобаки - Зарисовка местности',
-            audio3
+            'http://unfixt.ru/static/music/sobaka.wav'
         ],
         [
             'unfixt prod. - measure',
-            audio4
+            'http://unfixt.ru/static/music/measure.mp3'
         ],
         [
             'unfixt prod. found',
-            audio5
+            'http://unfixt.ru/static/music/found.wav'
         ],
         [
             'unfixt prod. - World music',
-            audio6
+            'http://unfixt.ru/static/music/world-music.wav'
         ],
         [
             'Аранжировка на заказ',
-            audio7
+            'http://unfixt.ru/static/music/zakaz.wav'
         ],
     ]
 }
