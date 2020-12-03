@@ -116,33 +116,42 @@ let state = {
     ],
     examples: [
         [
-            'ANKO - переработка аранжировки, сведение мастеринг',
-            'http://unfixt.ru/static/music/anko.wav'
-        ],
-        [
-            'MASHA - song',
+            'Песня под ключ (АРАНЖИРОВКА, ЗАПИСЬ\\ТЮНИНГ ВОКАЛА, СВЕДЕНИЕ, МАСТЕРИНГ)',
             'http://unfixt.ru/static/music/masha.wav'
         ],
         [
-            'стоныпожилойсобаки - Зарисовка местности',
+            'стоныпожилойсобаки — Зарисовка местности (СВЕДЕНИЕ, ОБРАБОТКА ВОКАЛА, МАСТЕРИНГ)',
             'http://unfixt.ru/static/music/sobaka.wav'
         ],
         [
-            'unfixt prod. - measure',
+            'Аранжировка под референс заказчика',
+            'http://unfixt.ru/static/music/hate.mp3'
+        ],
+        [
+            'Создание аранжировки на основе гитарной партии заказчика',
+            'http://unfixt.ru/static/music/mike-mike.mp3'
+        ],
+        [
+            'Саунд продюссирование (ПЕРЕРАБОТКА АРАНЖИРОВКИ КЛИЕНТА, СВЕДЕНИЕ, МАСТЕРИНГ)',
+            'http://unfixt.ru/static/music/anko.wav'
+        ],
+        [
+            'unfixt prod. — measure (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
             'http://unfixt.ru/static/music/measure.mp3'
         ],
         [
-            'unfixt prod. found',
+            'unfixt prod. — found (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
             'http://unfixt.ru/static/music/found.wav'
         ],
         [
-            'unfixt prod. - World music',
+            'unfixt prod. — World music (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
             'http://unfixt.ru/static/music/world-music.wav'
         ],
         [
-            'Аранжировка на заказ',
-            'http://unfixt.ru/static/music/zakaz.wav'
+            'Mutafrukt — Anapa-house (МАСТЕРИНГ)',
+            'http://unfixt.ru/static/music/anapa.mp3'
         ],
+
     ]
 }
 

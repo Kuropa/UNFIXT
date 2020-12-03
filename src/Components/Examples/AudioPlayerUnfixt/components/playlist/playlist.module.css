@@ -1,10 +1,26 @@
-.selected {
+.songWrapper {
+    cursor: pointer;
+    width: max-content;
+}
+
+.playlist {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.prePlay {
+    display: none;
+}
+
+.songName {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.selected .songName{
     color: #10ffff;
 }
 
-.selected .playHover {
-    opacity: 1;
-}
 .songWrapper {
     display: flex;
     align-items: center;
@@ -13,11 +29,6 @@
 .playHover {
     width: 30px;
     opacity: 0;
-}
-
-li {
-    color: white;
-    cursor: pointer;
 }
 
 .listStyle {
@@ -34,6 +45,35 @@ li {
 .songContainer {
     cursor: pointer;
     user-select: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .playlist {
+        height: 150px;
+    }
+
+    .songName {
+        font-size: 16px;
+    }
+
+    .prePlay {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-image: url("../../../../../Components/Media/Icon/playHoverW.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0;
+    }
+
+    .songWrapper:hover > .prePlay {
+        opacity: 1;
+    }
+
+    .selected .prePlay {
+        opacity: 1;
+        background-image: url("../../../../../Components/Media/Icon/playHover.svg");
+    }
 }
 
 @media screen and (min-width: 1920px) {

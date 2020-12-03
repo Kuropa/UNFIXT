@@ -4,8 +4,6 @@ import playerReducer from './playerReducer';
 
 import {
   SET_CURRENT_SONG,
-  TOGGLE_RANDOM,
-  TOGGLE_REPEAT,
   TOGGLE_PLAYING
 } from './types'
 
@@ -42,10 +40,6 @@ const PlayerState = props => {
     }
   }
 
-  // Repeat and Random
-  const toggleRepeat = (id) => dispatch({ type: TOGGLE_REPEAT, data: state.repeat ? false : true })
-  const toggleRandom = (id) => dispatch({ type: TOGGLE_RANDOM, data: state.random ? false : true })
-
 
   // End of Song
   const handleEnd = () => {
@@ -75,8 +69,6 @@ const PlayerState = props => {
       nextSong,
       prevSong,
       SetCurrent,
-      toggleRandom,
-      toggleRepeat,
       togglePlaying,
       handleEnd
     }}>

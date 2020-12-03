@@ -1,6 +1,12 @@
 .header {
     color: #ffffff;
-    height: 50px;
+    height: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 20px;
+    }
 }
 
 @media screen and (min-width: 1920px) {

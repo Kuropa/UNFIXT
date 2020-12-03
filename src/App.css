@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #242424;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #10ffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 ul[class],
 ol[class] {
     padding: 0;
