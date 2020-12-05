@@ -12,7 +12,7 @@ const Bullet = (props) => {
                 <img className={style.graphic} src={props.src} alt='img'/>
                 <div className={textWrapperClass}>
                     <h1 className={style.header}>{props.header}</h1>
-                    <h4 className={style.build}>{props.build}</h4>
+                    <p className={style.build}>{props.build}</p>
                     <p className={style.description}>{props.description}</p>
                     <div className={style.price}>
                         <p>{props.price}</p>

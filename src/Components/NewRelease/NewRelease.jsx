@@ -22,11 +22,11 @@ const NewRelease = (props) => {
                             <div
                                 data-aos='fade'
                                 className={style.textWrapper}>
-                                <h1 className={style.bold}>
+                                <p className={style.title}>
                                     <span className={style.blue}>
                                         { i18n.text('slider/title_b') }
                                     </span>{ i18n.text('slider/title') }
-                                </h1>
+                                </p>
                                 <p className={style.description}>
                                     {el.title}
                                     <span className={style.bold}>

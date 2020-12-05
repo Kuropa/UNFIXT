@@ -17,7 +17,9 @@ const Header = () => {
     return (
         <div className={style.header}>
             <div className={style.contactsIcon}>
-            <img alt='logo' className={style.logo} src={Logo}/>
+                <a href="http://unfixt.ru/">
+                    <img alt='unfixt_logo' className={style.logo} src={Logo}/>
+                </a>
                 <a href='https://vk.com/eternally_ice' target='_blank' rel='noopener noreferrer'>
                     <img className={style.icon} src={vk} alt='Vkontakte'/>
                 </a>

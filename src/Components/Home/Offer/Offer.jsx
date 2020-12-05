@@ -8,7 +8,8 @@ const Offer = () => {
             <div className={style.border}>
                 <h1 className={style.offer}>{i18n.text("offer/title")}
                  <span className={style.bold}>
-                    <span className={style.blue}>{i18n.text("offer/title_b")}</span> <span>{i18n.text("offer/title_s")}</span> {i18n.text("offer/title_bold")}</span></h1>
+                    <span className={style.blue}>{i18n.text("offer/title_b")}</span> <span>{i18n.text("offer/title_s")}</span> {i18n.text("offer/title_bold")}</span>
+                </h1>
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ import Ehe from './Components/Media/Cover/Paimon Bass House_mini.png'
 import Wonderland from './Components/Media/Cover/wonderland_mini.png';
 import TimeMachine from './Components/Media/Cover/Time_Machine_mini.png';
 import FullControl from './Components/Media/Cover/full_control_mini.png';
-import Negative from './Components/Media/Cover/FLUID_mini.png'
+import Negative from './Components/Media/Cover/negative_mini.png'
 import Fluid from './Components/Media/Cover/FLUID_mini.png';
 import KDA from './Components/Media/Cover/KDA_mini.png';
 // Отзывы
@@ -117,11 +117,11 @@ let state = {
     examples: [
         [
             'Песня под ключ (АРАНЖИРОВКА, ЗАПИСЬ\\ТЮНИНГ ВОКАЛА, СВЕДЕНИЕ, МАСТЕРИНГ)',
-            'http://unfixt.ru/static/music/masha.wav'
+            'http://unfixt.ru/static/music/masha.mp3'
         ],
         [
             'стоныпожилойсобаки — Зарисовка местности (СВЕДЕНИЕ, ОБРАБОТКА ВОКАЛА, МАСТЕРИНГ)',
-            'http://unfixt.ru/static/music/sobaka.wav'
+            'http://unfixt.ru/static/music/sobaka.mp3'
         ],
         [
             'Аранжировка под референс заказчика',
@@ -133,7 +133,7 @@ let state = {
         ],
         [
             'Саунд продюссирование (ПЕРЕРАБОТКА АРАНЖИРОВКИ КЛИЕНТА, СВЕДЕНИЕ, МАСТЕРИНГ)',
-            'http://unfixt.ru/static/music/anko.wav'
+            'http://unfixt.ru/static/music/anko.mp3'
         ],
         [
             'unfixt prod. — measure (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
@@ -141,17 +141,16 @@ let state = {
         ],
         [
             'unfixt prod. — found (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
-            'http://unfixt.ru/static/music/found.wav'
+            'http://unfixt.ru/static/music/found.mp3'
         ],
         [
             'unfixt prod. — World music (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
-            'http://unfixt.ru/static/music/world-music.wav'
+            'http://unfixt.ru/static/music/world-music.mp3'
         ],
         [
             'Mutafrukt — Anapa-house (МАСТЕРИНГ)',
             'http://unfixt.ru/static/music/anapa.mp3'
         ],
-
     ]
 }
 

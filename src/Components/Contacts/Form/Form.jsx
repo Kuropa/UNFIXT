@@ -16,7 +16,7 @@ class Form extends React.Component {
         const { status } = this.state;
         return (
             <div data-aos='fade'>
-                <h2 className={style.header}>{i18n.text('contacts/title_3')}</h2>
+                <p className={style.header}>{i18n.text('contacts/title_3')}</p>
                 <form
                     onSubmit={this.submitForm}
                     action='https://formspree.io/xzbjrpww'

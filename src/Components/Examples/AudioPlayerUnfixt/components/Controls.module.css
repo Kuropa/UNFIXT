@@ -11,7 +11,7 @@
 }
 
 .volume {
-    display: flex;
+    display: none;
     align-content: center;
     overflow: hidden;
     width: 90px;
@@ -164,7 +164,9 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media screen and (min-width: 1024px) {
-
+    .volume {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1920px) {

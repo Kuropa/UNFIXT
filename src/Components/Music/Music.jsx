@@ -4,7 +4,6 @@ import play from '../Media/Icon/play.svg';
 import {i18n} from '../../lib/i18n/i18n';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import Before from '../BeforeAfter/Before';
 
 const getSize = () => window.innerWidth < 1024 ? 2 : 3;
 
@@ -31,17 +30,16 @@ const Music = (props) => {
                     </div>
                 </div>
                 <p className={style.title}>{el.title}</p>
-                <h5 className={style.genre}>{el.genre}</h5>
+                <p className={style.genre}>{el.genre}</p>
             </div>
         </SwiperSlide>
     ))
 
     return (
         <div id='Music'>
-            <Before/>
             <div className={style.music}>
                 <div className={style.musicWrapper}>
-                    <h1 className={style.header}><span className={style.title}>{i18n.text('title')}</span>{i18n.text('music/title')}</h1>
+                    <p className={style.header}><span className={style.title}>{i18n.text('title')}</span>{i18n.text('music/title')}</p>
                 </div>
                 <Swiper
                     spaceBetween={150}
@@ -50,7 +48,6 @@ const Music = (props) => {
                     {musicList}
                 </Swiper>
             </div>
-            {/*<After/>*/}
         </div>
     )
 }

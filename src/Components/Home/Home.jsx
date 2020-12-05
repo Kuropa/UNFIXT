@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <div className={style.container}>
             <Offer/>
-            {/*<Scroll/>*/}
         </div>
     )
 }

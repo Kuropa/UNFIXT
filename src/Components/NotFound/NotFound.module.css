@@ -1,0 +1,98 @@
+.notFound {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    height: 90%;
+    width: 90%;
+    border: 3px solid #10ffff;
+    margin: 25px 25px 10px 25px;
+    padding: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.infoWrap {
+
+}
+
+.textWrap {
+    text-align: center;
+}
+
+.image {
+    width: 600px;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1C1B1B;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #ffffff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.button:hover,
+.button:active {
+    background-color: #10ffff;
+    border-color: #10ffff;
+    color: #000000;
+    transition: color 0.3s ease-in,
+    background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
+}
+
+@media screen and (min-width: 768px) {
+    .border {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .border {
+        padding: 25px;
+        display: flex;
+    }
+
+    .infoWrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .border {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .border {
+        padding: 200px 100px;
+    }
+
+    .infoWrap {
+        width: 1300px;
+        display: flex;
+        align-items: center;
+    }
+
+}

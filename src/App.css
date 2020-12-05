@@ -97,6 +97,10 @@ select {
     display: none;
 }
 
+.canvasError {
+    display: none;
+}
+
 .swiper-container {
     margin-left: 20px !important;
 }
@@ -126,6 +130,14 @@ select {
         top: 50px;
         left: 0;
     }
+
+    .canvasError {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: 0;
+    }
 }
 
 @media screen and (min-width: 1240px) {
@@ -138,4 +150,8 @@ select {
     .canvas {
         height: 700px;
     }
+
+    /*.swiper-slide {*/
+    /*    margin-right: 0px !important;*/
+    /*}*/
 }

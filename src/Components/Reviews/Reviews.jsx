@@ -17,7 +17,6 @@ const Reviews = (props) => {
         <div>
             <div className={style.reviews}>
                 <div className={style.headerWrap}>
-                    {/*<h1>{i18n.text('reviews/title')}</h1>*/}
                     <img alt='.' data-aos='fade-right' data-aos-offset='300' src={quote} className={style.quote}/>
                 </div>
                 {reviewList}
