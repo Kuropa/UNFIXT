@@ -4,7 +4,7 @@ import img from '../Media/Icon/404.svg'
 import {i18n} from '../../lib/i18n/i18n';
 import WebEffect from "../WebEffect/WebEffect";
 
-const NotFound = () => {
+const NotFound = ({ location }) => {
     return (
         <div className={style.notFound}>
             <WebEffect class='canvasError'/>
@@ -12,6 +12,7 @@ const NotFound = () => {
                 <div className={style.infoWrap}>
                     <img className={style.image} src={img} alt="Page Not Found"/>
                     <div className={style.textWrap}>
+                        <code>{location.pathname}</code>
                         <p className={style.title}>{i18n.text("error/title")}</p>
                         <a className={style.button} href="http://unfixt.ru">{i18n.text("error/button")}</a>
                     </div>
