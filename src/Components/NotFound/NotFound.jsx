@@ -12,7 +12,6 @@ const NotFound = ({ location }) => {
                 <div className={style.infoWrap}>
                     <img className={style.image} src={img} alt="Page Not Found"/>
                     <div className={style.textWrap}>
-                        <code>{location.pathname}</code>
                         <p className={style.title}>{i18n.text("error/title")}</p>
                         <a className={style.button} href="http://unfixt.ru">{i18n.text("error/button")}</a>
                     </div>
