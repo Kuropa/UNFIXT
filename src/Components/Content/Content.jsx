@@ -13,16 +13,17 @@ import Before from "../BeforeAfter/Before";
 import Music from "../Music/Music";
 import Reviews from "../Reviews/Reviews";
 import Contacts from "../Contacts/Contacts";
+import ExampleVideo from "../ExampleVideo/ExampleVideo";
 
 const Content = (props) => {
         AOS.init()
     return (
         <div>
-            <WebEffect
-                class='canvas'/>
+            <WebEffect class='canvas'/>
             <Header/>
             <Home/>
             <Examples examples={props.state.examples}/>
+            <ExampleVideo examplesVideo={props.state.examplesVideo}/>
             <After/>
             <Bullets/>
             <NewRelease newRelease={props.state.newRelease}/>

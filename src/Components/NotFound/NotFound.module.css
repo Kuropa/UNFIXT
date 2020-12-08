@@ -11,12 +11,6 @@
     border: 3px solid #10ffff;
     margin: 25px 25px 10px 25px;
     padding: 25px;
-    position: relative;
-    z-index: 1;
-}
-
-.infoWrap {
-
 }
 
 .textWrap {
@@ -25,6 +19,8 @@
 
 .image {
     width: 600px;
+    position: relative;
+    z-index: 1;
 }
 
 .title {
@@ -47,6 +43,8 @@
     color 0.2s ease-out;
     cursor: pointer;
     margin: 25px;
+    position: relative;
+    z-index: 1;
 }
 
 .button:hover,
