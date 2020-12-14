@@ -87,3 +87,10 @@
         margin-top: 25px;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .reviews {
+        padding: 25px 200px;
+    }
+}
+

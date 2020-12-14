@@ -11,12 +11,9 @@ const Bullet = (props) => {
             <div className={cn(style.bullet, props.postion === 'right' && style.reverse)}>
                 <img className={style.graphic} src={props.src} alt='img'/>
                 <div className={textWrapperClass}>
-                    <h1 className={style.header}>{props.header}</h1>
+                    <h2 className={style.header}>{props.header}</h2>
                     <p className={style.build}>{props.build}</p>
                     <p className={style.description}>{props.description}</p>
-                    <div className={style.price}>
-                        <p>{props.price}</p>
-                    </div>
                 </div>
             </div>
         </div>

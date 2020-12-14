@@ -178,6 +178,10 @@
         margin: 25px;
     }
 
+    .musicWrapper {
+        margin-left: 200px;
+    }
+
     .trackImg {
         width: 500px;
     }

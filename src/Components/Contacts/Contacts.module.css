@@ -62,3 +62,9 @@
         color: #10ffff;
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .contacts {
+        padding: 25px 200px;
+    }
+}

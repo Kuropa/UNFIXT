@@ -9,7 +9,7 @@ import {i18n} from '../../lib/i18n/i18n';
 
 const Bullets = () => {
     return (
-        <div id='About' className={style.bullets}>
+        <div className={style.bullets}>
             <Bullet
                 aos='fade-left'
                 postion='left'
@@ -17,7 +17,6 @@ const Bullets = () => {
                 header={i18n.text('bullet/1/title')}
                 build={i18n.text('bullet/1/title_s')}
                 description={i18n.text('bullet/1/description')}
-                price={i18n.text('bullet/1/price')}
             />
             <Bullet
                 aos='fade-right'
@@ -26,7 +25,6 @@ const Bullets = () => {
                 header={i18n.text('bullet/2/title')}
                 build={i18n.text('bullet/2/title_s')}
                 description={i18n.text('bullet/2/description')}
-                price={i18n.text('bullet/2/price')}
             />
             <Bullet
                 aos='fade-left'
@@ -35,7 +33,6 @@ const Bullets = () => {
                 header={i18n.text('bullet/3/title')}
                 build={i18n.text('bullet/3/title_s')}
                 description={i18n.text('bullet/3/description')}
-                price={i18n.text('bullet/3/price')}
             />
             <Bullet
                 aos='fade-right'
@@ -44,7 +41,6 @@ const Bullets = () => {
                 header={i18n.text('bullet/4/title')}
                 build={i18n.text('bullet/4/title_s')}
                 description={i18n.text('bullet/4/description')}
-                price={i18n.text('bullet/4/price')}
             />
         </div>
     )

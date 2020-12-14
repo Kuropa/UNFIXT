@@ -6,12 +6,12 @@ import AudioPlayer from "./AudioPlayerUnfixt/AudioPlayer";
 const Examples = (props) => {
     return(
         <div className={style.container}>
-            <h1 className={style.header}>
+            <p className={style.header}>
                 <span className={style.title}>
                     { i18n.text("title") }
                 </span>
                 {i18n.text("examples/title")}
-            </h1>
+            </p>
             <AudioPlayer props={props.examples}/>
         </div>
     )

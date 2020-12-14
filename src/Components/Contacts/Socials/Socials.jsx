@@ -14,7 +14,7 @@ const Socials = (props) => {
     return (
         <div className={style.socials}>
             <p className={style.header}>{i18n.text("contacts/title_2")}</p>
-            <div className={style.paddindWrap}>
+            <div className={style.paddingWrap}>
                 { socialsList }
             </div>
         </div>

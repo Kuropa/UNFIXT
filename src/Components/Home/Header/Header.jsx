@@ -18,7 +18,7 @@ const Header = () => {
         <div className={style.header}>
             <div className={style.contactsIcon}>
                 <a href="http://unfixt.ru/">
-                    <img alt='unfixt_logo' className={style.logo} src={Logo}/>
+                    <img alt='unfixt-logo' className={style.logo} src={Logo}/>
                 </a>
                 <a href='https://vk.com/eternally_ice' target='_blank' rel='noopener noreferrer'>
                     <img className={style.icon} src={vk} alt='Vkontakte'/>
@@ -31,7 +31,7 @@ const Header = () => {
                 </a>
             </div>
             <nav>
-                <a className={style.navLink} href='#About'>{i18n.text('menu/about')}</a>
+                <a className={style.navLink} href='#Price'>{i18n.text('menu/about')}</a>
                 <a className={style.navLink} href='#Music'>{i18n.text('menu/music')}</a>
                 <a className={style.navLink} href='#Contacts'>{i18n.text('menu/contacts')}</a>
                 {/*<select onChange={handleSelectChange}>*/}

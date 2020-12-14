@@ -14,6 +14,7 @@ import Music from "../Music/Music";
 import Reviews from "../Reviews/Reviews";
 import Contacts from "../Contacts/Contacts";
 import ExampleVideo from "../ExampleVideo/ExampleVideo";
+import Prices from "../Prices/Prices";
 
 const Content = (props) => {
         AOS.init()
@@ -25,6 +26,7 @@ const Content = (props) => {
             <Examples examples={props.state.examples}/>
             <ExampleVideo examplesVideo={props.state.examplesVideo}/>
             <After/>
+            <Prices prices={props.state.prices}/>
             <Bullets/>
             <NewRelease newRelease={props.state.newRelease}/>
             <Before/>

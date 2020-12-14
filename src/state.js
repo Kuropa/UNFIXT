@@ -20,9 +20,9 @@ import KDA from './Components/Media/Cover/KDA_mini-min.png';
 // Отзывы
 import JONY from './Components/Media/Reviews/jony-yaroslavl.jpg';
 // Заглушки для видео
-import videoJony from './Components/Media/Img/jony-min.jpeg';
-import videoZastavka from './Components/Media/Img/videorolik-min.jpeg';
-import videoConcert from './Components/Media/Img/consert-min.jpeg';
+import videoJony from './Components/Media/Img/jony-min.png';
+import videoZastavka from './Components/Media/Img/videorolik-min.png';
+import videoConcert from './Components/Media/Img/consert-min.png';
 
 let state = {
     newRelease: [
@@ -118,10 +118,10 @@ let state = {
         },
     ],
     examples: [
-        [
-            'Песня под ключ (АРАНЖИРОВКА, ЗАПИСЬ\\ТЮНИНГ ВОКАЛА, СВЕДЕНИЕ, МАСТЕРИНГ)',
-            'http://unfixt.ru/static/music/masha.mp3'
-        ],
+        // [
+        //     'Песня под ключ (АРАНЖИРОВКА, ЗАПИСЬ\\ТЮНИНГ ВОКАЛА, СВЕДЕНИЕ, МАСТЕРИНГ)',
+        //     'http://unfixt.ru/static/music/masha.mp3'
+        // ],
         [
             'стоныпожилойсобаки — Зарисовка местности (СВЕДЕНИЕ, ОБРАБОТКА ВОКАЛА, МАСТЕРИНГ)',
             'http://unfixt.ru/static/music/sobaka.mp3'
@@ -159,17 +159,54 @@ let state = {
         {
             video: "https://www.youtube.com/embed/dPVm3B3xZYo?autoplay=1",
             img: videoJony,
-            title: "Саунд дизайн для JONY"
+            title: i18n.text("video/1/title"),
+            subtitle: i18n.text("video/1/subtitle")
         },
         {
             video: "https://www.youtube.com/embed/vbJ7EBTtH3Q?autoplay=1",
             img: videoConcert,
-            title: "Сведение живого концерта"
+            title: i18n.text("video/2/title"),
+            subtitle: i18n.text("video/2/subtitle")
         },
         {
             video: "https://www.youtube.com/embed/OjXPZb5-bKM?autoplay=1",
             img: videoZastavka,
-            title: "Саунд дизайн для видеоролика"
+            title: i18n.text("video/3/title"),
+            subtitle: i18n.text("video/3/subtitle")
+        },
+    ],
+    prices: [
+        {
+            serviceType: i18n.text("prices/1/title"),
+            servicePrice: i18n.text("prices/1/price")
+        },
+        {
+            serviceType: i18n.text("prices/2/title"),
+            servicePrice: i18n.text("prices/2/price")
+        },
+        {
+            serviceType: i18n.text("prices/3/title"),
+            servicePrice: i18n.text("prices/3/price")
+        },
+        {
+            serviceType: i18n.text("prices/4/title"),
+            servicePrice: i18n.text("prices/4/price")
+        },
+        {
+            serviceType: i18n.text("prices/5/title"),
+            servicePrice: i18n.text("prices/5/price")
+        },
+        {
+            serviceType: i18n.text("prices/6/title"),
+            servicePrice: i18n.text("prices/6/price")
+        },
+        {
+            serviceType: i18n.text("prices/7/title"),
+            servicePrice: i18n.text("prices/7/price")
+        },
+        {
+            serviceType: i18n.text("prices/8/title"),
+            servicePrice: i18n.text("prices/8/price")
         },
     ]
 }

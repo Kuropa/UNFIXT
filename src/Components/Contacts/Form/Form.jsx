@@ -24,13 +24,13 @@ class Form extends React.Component {
                 >
                     <div className={style.formWrap}>
                         <div className={style.wrapper}>
-                            <input type='text' name='name' placeholder={i18n.text('contacts/form/name')} />
+                            <input className={style.input} type='text' name='name' placeholder={i18n.text('contacts/form/name')} />
                         </div>
                         <div className={style.wrapper}>
-                            <input type='email' name='email' placeholder={i18n.text('contacts/form/email')} />
+                            <input className={style.input} type='email' name='email' placeholder={i18n.text('contacts/form/email')} />
                         </div>
                         <div className={style.wrapper}>
-                            <input type='text' name='message' autoComplete='none' placeholder={i18n.text('contacts/form/message')} />
+                            <input className={style.input} type='text' name='message' autoComplete='none' placeholder={i18n.text('contacts/form/message')} />
                         </div>
                     </div>
                     {status === 'SUCCESS' ? <p className={style.submitText}>{i18n.text('contacts/form/submited')}</p> :
