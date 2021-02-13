@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './NewRelease.module.css';
+import styles from './NewRelease.module.css';
 import {i18n} from '../../lib/i18n/i18n';
 import Spotify from './Icon/Spotify';
 import YouTube from './Icon/YouTube';
@@ -10,30 +10,30 @@ const NewRelease = (props) => {
         <div>
             {
                 props.newRelease.map(el => (
-                    <div className={style.container} key={el.title}>
-                        <div className={style.newRelease}>
+                    <div className={styles.container} key={el.title}>
+                        <div className={styles.newRelease}>
                             <p>
                                 <img
                                     data-aos='fade'
-                                    className={style.cover}
+                                    className={styles.cover}
                                     src={el.img}
                                     alt={el.title} />
                             </p>
                             <div
                                 data-aos='fade'
-                                className={style.textWrapper}>
-                                <p className={style.title}>
-                                    <span className={style.blue}>
+                                className={styles.textWrapper}>
+                                <p className={styles.title}>
+                                    <span className={styles.blue}>
                                         { i18n.text('slider/title_b') }
                                     </span>{ i18n.text('slider/title') }
                                 </p>
-                                <p className={style.description}>
+                                <p className={styles.description}>
                                     {el.title}
-                                    <span className={style.bold}>
+                                    <span className={styles.bold}>
                                     {i18n.text('slider/title_s_b')}
                                 </span>{i18n.text('slider/title_s')}
                                 </p>
-                                <div className={style.iconWrapper}>
+                                <div className={styles.iconWrapper}>
                                     <Spotify href={el.Spotify}/>
                                     <YouTube href={el.YouTube}/>
                                     <AppleMusic href={el.AppleMusic}/>

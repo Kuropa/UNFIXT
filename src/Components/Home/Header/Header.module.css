@@ -33,6 +33,7 @@ nav {
 
 .navLink {
     color: #ffffff;
+    cursor: pointer;
 }
 
 select {

@@ -1,0 +1,105 @@
+.playerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playerWrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.play {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../Media/Icon/play.svg");
+}
+
+.pause {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../Media/Icon/pause.svg");
+}
+
+.black {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    cursor: pointer;
+    margin: 5px 25px;
+    background-color: #1C1B1B;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.blue {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    cursor: pointer;
+    margin: 5px 25px;
+    background-color: #10ffff;
+    color: #000000;
+    border: 1px solid #10ffff;
+}
+
+.wavesContainer {
+    position: relative;
+}
+
+.waveHidden {
+    opacity: 0;
+    padding: 0 !important;
+}
+
+.waveShow {
+    opacity: 1;
+    padding: 0 !important;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media > div > div > div > div {
+    width: 100%;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .playerWrap {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}

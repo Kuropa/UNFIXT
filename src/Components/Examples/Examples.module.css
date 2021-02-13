@@ -4,7 +4,14 @@
 
 .header {
     color: #10ffff;
-    font-size: 36px;
+    font-size: 32px;
+
+}
+
+.description {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
     margin-bottom: 50px;
 }
 

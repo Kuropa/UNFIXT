@@ -17,11 +17,11 @@
 }
 
 .emailWrap {
-    margin: 50px 0px;
+    margin: 40px 0px;
 }
 
 .email {
-    color: #FFFFFF;
+    color: #10ffff;
     text-align: center;
     font-weight: 900;
 }
@@ -54,12 +54,8 @@
 
 @media screen and (min-width: 1240px) {
     .emailWrap {
-        margin: 100px;
+        margin: 70px;
         font-size: 24px;
-    }
-
-    .email:hover {
-        color: #10ffff;
     }
 }
 

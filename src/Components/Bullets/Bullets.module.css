@@ -12,13 +12,6 @@
 
 @media screen and (min-width: 1024px) {
     .bullets {
-        padding: 100px;
         margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 1240px) {
-    .bullets {
-
     }
 }

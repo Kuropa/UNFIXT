@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Form.module.css';
+import styles from './Form.module.css';
 import {i18n} from "../../../lib/i18n/i18n";
 import Button from "../../Button/Button";
 
@@ -16,26 +16,26 @@ class Form extends React.Component {
         const { status } = this.state;
         return (
             <div data-aos='fade'>
-                <p className={style.header}>{i18n.text('contacts/title_3')}</p>
+                <p className={styles.header}>{i18n.text('contacts/title_3')}</p>
                 <form
                     onSubmit={this.submitForm}
                     action='https://formspree.io/xzbjrpww'
                     method='POST'
                 >
-                    <div className={style.formWrap}>
-                        <div className={style.wrapper}>
-                            <input className={style.input} type='text' name='name' placeholder={i18n.text('contacts/form/name')} />
+                    <div className={styles.formWrap}>
+                        <div className={styles.wrapper}>
+                            <input className={styles.input} type='text' name='name' placeholder={i18n.text('contacts/form/name')} />
                         </div>
-                        <div className={style.wrapper}>
-                            <input className={style.input} type='email' name='email' placeholder={i18n.text('contacts/form/email')} />
+                        <div className={styles.wrapper}>
+                            <input className={styles.input} type='email' name='email' placeholder={i18n.text('contacts/form/email')} />
                         </div>
-                        <div className={style.wrapper}>
-                            <input className={style.input} type='text' name='message' autoComplete='none' placeholder={i18n.text('contacts/form/message')} />
+                        <div className={styles.wrapper}>
+                            <input className={styles.input} type='text' name='message' autoComplete='none' placeholder={i18n.text('contacts/form/message')} />
                         </div>
                     </div>
-                    {status === 'SUCCESS' ? <p className={style.submitText}>{i18n.text('contacts/form/submited')}</p> :
+                    {status === 'SUCCESS' ? <p className={styles.submitText}>{i18n.text('contacts/form/submited')}</p> :
                         <Button color='#000000'text={i18n.text('contacts/form/button')}/>}
-                    {status === 'ERROR' && <p className={style.submitText}>{i18n.text('contacts/form/unsubmited')}</p>}
+                    {status === 'ERROR' && <p className={styles.submitText}>{i18n.text('contacts/form/unsubmited')}</p>}
                 </form>
             </div>
         );

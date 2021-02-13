@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import Modal from '../Modal/Modal'
 import play from '../Media/Icon/play.svg'
-import style from './ExampleVideo.module.css'
+import styles from './ExampleVideo.module.css'
 
 const ExampleVideo = (props) => {
     const [show, setShow] = useState(false)
@@ -20,22 +20,22 @@ const ExampleVideo = (props) => {
                 src={link}
                 text={link}
             />
-            <div className={style.exampleVideo}>
+            <div className={styles.exampleVideo}>
                 {
                     props.examplesVideo.map(video => (
-                        <div className={style.exampleVideoCard} key={video.title}>
-                            <div className={style.videoWrapper}>
-                                <img className={style.videoImg} src={video.img} alt={video.title}/>
-                                <div className={style.playHover}>
+                        <div className={styles.exampleVideoCard} key={video.title}>
+                            <div className={styles.videoWrapper}>
+                                <img className={styles.videoImg} src={video.img} alt={video.title}/>
+                                <div className={styles.playHover}>
                                     <img id={video.video}
                                          onClick={handleClick}
-                                         className={style.playButton}
+                                         className={styles.playButton}
                                          src={play}
                                          alt='Play'/>
                                 </div>
                             </div>
-                            <p className={style.header}>{video.title}</p>
-                            <p className={style.subtitle}>{video.subtitle}</p>
+                            <p className={styles.header}>{video.title}</p>
+                            <p className={styles.subtitle}>{video.subtitle}</p>
                         </div>
                     ))
                 }

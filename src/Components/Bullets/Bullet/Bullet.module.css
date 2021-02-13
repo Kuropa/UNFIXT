@@ -20,8 +20,12 @@
     margin-bottom: 25px;
 }
 
-.price > p {
+.price {
     font-weight: 900;
+}
+
+.priceWrap {
+    display: flex;
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,6 +1,7 @@
 // Текст
-import {i18n} from "./lib/i18n/i18n";
+import { i18n } from "./lib/i18n/i18n";
 // Иконки
+import telegram from './Components/Media/Icon/telega.svg'
 import youtube from './Components/Media/Icon/youtube.svg';
 import soundcloud from './Components/Media/Icon/SC.svg';
 import spotify from './Components/Media/Icon/spotify.svg';
@@ -20,9 +21,12 @@ import KDA from './Components/Media/Cover/KDA_mini-min.png';
 // Отзывы
 import JONY from './Components/Media/Reviews/jony-yaroslavl.jpg';
 // Заглушки для видео
-import videoJony from './Components/Media/Img/jony-min.png';
+import videoJony from './Components/Media/Img/jony-min.jpg';
 import videoZastavka from './Components/Media/Img/videorolik-min.png';
 import videoConcert from './Components/Media/Img/consert-min.png';
+// Сравнение
+import before from './Components/Media/Test-Audio/before.mp3';
+import after from './Components/Media/Test-Audio/after.mp3';
 
 let state = {
     newRelease: [
@@ -87,6 +91,11 @@ let state = {
     ],
     socials: [
         {
+            img: telegram,
+            title: 'Telegram',
+            href: 'https://tlgg.ru/@DDsch'
+        },
+        {
             img: youtube,
             title: 'YouTube',
             href: 'https://www.youtube.com/channel/UCBz7dDysICz71qlxM0Da0NQ'
@@ -118,40 +127,48 @@ let state = {
         },
     ],
     examples: [
-        // [
-        //     'Песня под ключ (АРАНЖИРОВКА, ЗАПИСЬ\\ТЮНИНГ ВОКАЛА, СВЕДЕНИЕ, МАСТЕРИНГ)',
-        //     'http://unfixt.ru/static/music/masha.mp3'
-        // ],
         [
-            'стоныпожилойсобаки — Зарисовка местности (СВЕДЕНИЕ, ОБРАБОТКА ВОКАЛА, МАСТЕРИНГ)',
+            i18n.text("track/1"),
+            'http://unfixt.ru/static/music/masha.mp3'
+        ],
+        [
+            i18n.text("track/11"),
+            'http://unfixt.ru/static/music/popushoy.mp3'
+        ],
+        [
+            i18n.text("track/10"),
+            'http://unfixt.ru/static/music/teplo.mp3'
+        ],
+        [
+            i18n.text("track/2"),
             'http://unfixt.ru/static/music/sobaka.mp3'
         ],
         [
-            'Аранжировка под референс заказчика',
+            i18n.text("track/3"),
             'http://unfixt.ru/static/music/hate.mp3'
         ],
         [
-            'Создание аранжировки на основе гитарной партии заказчика',
+            i18n.text("track/4"),
             'http://unfixt.ru/static/music/mike-mike.mp3'
         ],
         [
-            'Саунд продюссирование (ПЕРЕРАБОТКА АРАНЖИРОВКИ КЛИЕНТА, СВЕДЕНИЕ, МАСТЕРИНГ)',
+            i18n.text("track/5"),
             'http://unfixt.ru/static/music/anko.mp3'
         ],
         [
-            'unfixt prod. — measure (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
+            i18n.text("track/6"),
             'http://unfixt.ru/static/music/measure.mp3'
         ],
         [
-            'unfixt prod. — found (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
+            i18n.text("track/7"),
             'http://unfixt.ru/static/music/found.mp3'
         ],
         [
-            'unfixt prod. — World music (АРАНЖИРОВКА\\БИТ НА ЗАКАЗ)',
+            i18n.text("track/8"),
             'http://unfixt.ru/static/music/world-music.mp3'
         ],
         [
-            'Mutafrukt — Anapa-house (МАСТЕРИНГ)',
+            i18n.text("track/9"),
             'http://unfixt.ru/static/music/anapa.mp3'
         ],
     ],
@@ -178,35 +195,64 @@ let state = {
     prices: [
         {
             serviceType: i18n.text("prices/1/title"),
-            servicePrice: i18n.text("prices/1/price")
+            servicePrice: i18n.text("prices/1/price"),
+            serviceFormat: i18n.text("prices/1/format"),
+            serviceDescription: i18n.text("prices/1/description"),
+
         },
         {
             serviceType: i18n.text("prices/2/title"),
-            servicePrice: i18n.text("prices/2/price")
+            servicePrice: i18n.text("prices/2/price"),
+            serviceFormat: i18n.text("prices/2/format"),
+            serviceDescription: i18n.text("prices/2/description"),
         },
         {
             serviceType: i18n.text("prices/3/title"),
-            servicePrice: i18n.text("prices/3/price")
+            servicePrice: i18n.text("prices/3/price"),
+            serviceFormat: i18n.text("prices/3/format"),
+            serviceDescription: i18n.text("prices/3/description"),
         },
         {
             serviceType: i18n.text("prices/4/title"),
-            servicePrice: i18n.text("prices/4/price")
+            servicePrice: i18n.text("prices/4/price"),
+            serviceFormat: i18n.text("prices/4/format"),
+            serviceDescription: i18n.text("prices/4/description"),
         },
         {
             serviceType: i18n.text("prices/5/title"),
-            servicePrice: i18n.text("prices/5/price")
+            servicePrice: i18n.text("prices/5/price"),
+            serviceFormat: i18n.text("prices/5/format"),
+            serviceDescription: i18n.text("prices/5/description"),
         },
         {
             serviceType: i18n.text("prices/6/title"),
-            servicePrice: i18n.text("prices/6/price")
+            servicePrice: i18n.text("prices/6/price"),
+            serviceFormat: i18n.text("prices/6/format"),
+            serviceDescription: i18n.text("prices/6/description"),
         },
         {
             serviceType: i18n.text("prices/7/title"),
-            servicePrice: i18n.text("prices/7/price")
+            servicePrice: i18n.text("prices/7/price"),
+            serviceFormat: i18n.text("prices/7/format"),
+            serviceDescription: i18n.text("prices/7/description"),
         },
         {
             serviceType: i18n.text("prices/8/title"),
-            servicePrice: i18n.text("prices/8/price")
+            servicePrice: i18n.text("prices/8/price"),
+            serviceFormat: i18n.text("prices/8/format"),
+            serviceDescription: i18n.text("prices/8/description"),
+        },
+        {
+            serviceType: i18n.text("prices/9/title"),
+            servicePrice: i18n.text("prices/9/price"),
+            serviceFormat: i18n.text("prices/9/format"),
+            serviceDescription: i18n.text("prices/9/description"),
+        },
+    ],
+    audio: [
+        {
+            before: before,
+            after: after
         },
     ]
 }

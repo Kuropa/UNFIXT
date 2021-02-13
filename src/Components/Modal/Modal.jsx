@@ -1,17 +1,17 @@
 import React from 'react'
-import style from './Modal.module.css'
+import styles from './Modal.module.css'
 
 const Modal = ({ show, setShow,videoSettings, src }) => {
     return show && (
         <div onClick={() => setShow(false)}>
-            <div className={style.modalOverlay}>
-                <div className={style.modalWrapper}>
-                    <div className={style.modalButtonWrapper}>
-                        <div className={style.modalButton}></div>
+            <div className={styles.modalOverlay}>
+                <div className={styles.modalWrapper}>
+                    <div className={styles.modalButtonWrapper}>
+                        <div className={styles.modalButton}></div>
                     </div>
-                    <div className={style.modalContent}>
+                    <div className={styles.modalContent}>
                         <iframe {...videoSettings}
-                                className={style.video}
+                                className={styles.video}
                                 title='video'
                                 src={src}
                         />

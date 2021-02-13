@@ -1,0 +1,53 @@
+.ABExamplesContainer {
+    padding: 10px 25px;
+}
+
+.title {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.blue {
+    color: #10ffff;
+}
+
+@media screen and (min-width: 768px) {
+    .ABExamplesContainer {
+        padding: 10px 25px;
+    }
+
+    .subtitle {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ABExamplesContainer {
+        padding: 25px 100px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .ABExamplesContainer {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .ABExamplesContainer {
+        padding: 50px 200px;
+    }
+}

@@ -3,14 +3,15 @@
 }
 
 .header {
-    font-size: 36px;
+    font-size: 32px;
+    font-weight: 400;
     padding-left: 25px;
 }
 
 .description {
     color: #555555;
     padding-left: 25px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 100;
 }
 
@@ -19,23 +20,87 @@
 }
 
 .priceWrapper {
-    display: flex !important;
-    justify-content: center;
-    border: 3px solid #10ffff;
+    height: 400px;
+    display: flex;
+    border: 3px solid #1c1b1b;
     flex-direction: column;
     align-items: center;
+    padding: 15px 0;
     margin-bottom: 25px;
     text-align: center;
+    /*justify-content: space-between;*/
 }
 
 .p {
     height: 10px;
 }
 
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTitle {
+    font-weight: 900;
+}
+
+.circle {
+    background-image: url("../../Components/Media/Icon/circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .priceText {
     font-size: 40px;
     font-weight: 900;
     height: 45px;
+}
+
+.descriptionWrapper {
+    padding: 15px;
+}
+
+.cardFormat {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.cardDescription {
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #1c1b1b;
+    padding: 8px;
+    color: #ffffff;
+    /*border: 1px solid #1c1b1b;*/
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background-color: #10ffff;
+    /*border-color: #10ffff;*/
+    color: #000000;
+    transition: color 0.3s ease-in,
+    background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
 }
 
 @media screen and (min-width: 1024px) {
@@ -45,9 +110,10 @@
 
     .sliderWrapper {
         display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        overflow-y: hidden;
+        /*flex-wrap: nowrap;*/
+        /*overflow-x: auto;*/
+        /*overflow-y: hidden;*/
+        flex-wrap: wrap;
         padding: 25px 100px;
     }
 
@@ -61,8 +127,12 @@
 
     .priceWrapper {
         margin-right: 25px;
-        width: 400px;
+        width: 250px;
         flex: 0 0 auto;
+    }
+
+    .cardTitle {
+        height: 65px;
     }
 }
 

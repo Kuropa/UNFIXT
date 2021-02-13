@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from 'react'
 import playerContext from '../context/playerContext'
-import style from './Controls.module.css'
+import Playlist from "./playlist/Playlist";
+import styles from './Controls.module.css'
 import vol from '../../../Media/Icon/vol.svg'
 import play from '../../../Media/Icon/play.svg'
 import pause from '../../../Media/Icon/pause.svg'
@@ -23,7 +24,7 @@ function Controls() {
   const audio = useRef('audio_tag');
 
   // self State
-  const [statevolum, setStateVolum] = useState(0.3)
+  const [stateVolume, setStateVolume] = useState(0.3)
   const [dur, setDur] = useState(0)
   const [currentTime, setCurrentTime] = useState(0)
 
@@ -32,7 +33,7 @@ function Controls() {
   const toggleAudio = () => audio.current.paused ? audio.current.play() : audio.current.pause();
 
   const handleVolume = (q) => {
-    setStateVolum(q);
+    setStateVolume(q);
     audio.current.volume = q;
   }
 
@@ -43,13 +44,13 @@ function Controls() {
   }
 
   useEffect(() => {
-    audio.current.volume = statevolum;
+    audio.current.volume = stateVolume;
     if (playing) { toggleAudio() }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSong])
 
   return (
-    <div className={style.controls}>
+    <div className={styles.controls}>
       <audio
         onTimeUpdate={(e) => setCurrentTime(e.target.currentTime)}
         onCanPlay={(e) => setDur(e.target.duration)}
@@ -58,22 +59,22 @@ function Controls() {
         type="audio/mpeg"
         preload='true'
         src={songs[currentSong][1]} />
-      <div className={style.controlsWrapper}>
-        <div className={style.musicControls}>
+      <div className={styles.controlsWrapper}>
+        <div className={styles.musicControls}>
           {playing ?
-              <img alt='pause' src={pause} className={`${style.icon} ${style.p}`} onClick={() => { togglePlaying(); toggleAudio(); }}/> :
-              <img alt='play' src={play} className={`${style.icon} ${style.p}`} onClick={() => { togglePlaying(); toggleAudio(); }}/>
+              <img alt='pause' src={pause} className={`${styles.icon} ${styles.p}`} onClick={() => { togglePlaying(); toggleAudio(); }}/> :
+              <img alt='play' src={play} className={`${styles.icon} ${styles.p}`} onClick={() => { togglePlaying(); toggleAudio(); }}/>
           }
-          <img alt='prev' src={prev} className={style.icon} onClick={prevSong}/>
-          <img alt='next' src={next} className={style.icon} onClick={nextSong}/>
+          <img alt='prev' src={prev} className={styles.icon} onClick={prevSong}/>
+          <img alt='next' src={next} className={styles.icon} onClick={nextSong}/>
         </div>
-        <div className={style.volume}>
-          <img className={style.volImg} src={vol} alt=""/>
-          <input value={Math.round(statevolum * 100)} type="range" name="volBar" className={style.volBar} onChange={(e) => handleVolume(e.target.value / 100)} />
+        <div className={styles.volume}>
+          <img className={styles.volImg} src={vol} alt=""/>
+          <input value={Math.round(stateVolume * 100)} type="range" name="volBar" className={styles.volBar} onChange={(e) => handleVolume(e.target.value / 100)} />
         </div>
       </div>
-      <div className={style.progressb}>
-        <div className={style.curtimeWrap}>
+      <div className={styles.progressb}>
+        <div className={styles.curtimeWrap}>
           <span>{fmtMSS(currentTime)}</span>
           <span>{fmtMSS(dur)}</span>
         </div>

@@ -3,7 +3,7 @@ import EN from './dicts/en.json';
 
 export class _i18n {
     constructor() {
-        this.lang = localStorage.getItem('lang') === 'RU' ? RU : RU;
+        this.lang = localStorage.getItem('lang') === 'RU' ? RU : EN;
     }
     text(key) {
         return this.lang[key];

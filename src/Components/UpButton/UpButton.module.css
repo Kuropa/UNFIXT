@@ -1,0 +1,45 @@
+.upBtnWrap {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .upBtnWrap{
+        display: block;
+    }
+
+    .upButton {
+        display: block;
+        position: fixed;
+        background-color: RGBA(0, 0, 0, 0);
+        border: 3px solid #10ffff;
+        border-radius: 50%;
+        color: #1c1b1b;
+        right: 50px;
+        bottom: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0px;
+        line-height: 26px;
+        text-align: center;
+        z-index: 2;
+        transition: .2s linear;
+    }
+
+    .upButton:hover {
+        background-color: RGBA(0, 0, 0, 1);
+    }
+
+    .arrow {
+        display: block;
+        width: 50px;
+        transform: rotate(-90deg);
+    }
+
+    .hidden {
+        opacity: 0;
+    }
+
+    .visible {
+        opacity: 1;
+    }
+}
