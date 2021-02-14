@@ -11,13 +11,15 @@
     width: 100px;
 }
 
-.bild {
-    font-weight: 900;
+.build {
+    font-weight: 400;
+    width: 300px;
 }
 
 .description {
     font-weight: 300;
     margin-bottom: 25px;
+    width: 300px;
 }
 
 .price {
@@ -40,7 +42,7 @@
         width: 300px;
     }
 
-    .bild {
+    .build {
         width: 300px;
     }
 
@@ -58,6 +60,10 @@
     .bullet {
         width: 1000px;
         padding: 80px 10px;
+    }
+
+    .description {
+        width: 400px;
     }
 
     .textWrapper {

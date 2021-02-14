@@ -1,6 +1,9 @@
 .controls {
     color: white;
     font-size: 10px;
+    background-color: #1c1b1b;
+    position: relative;
+    z-index: 100;
 }
 
 .controlsWrapper {

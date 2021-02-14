@@ -18,7 +18,7 @@ function Playlist() {
                 <div className={styles.songWrapper}>
                     <div className={styles.prePlay}></div>
                     <p className={styles.songName}>
-                        { i + 1 + '. ' + song[0]}
+                        { i + 0 + '. ' + song[0]}
                     </p>
                 </div>
               </li>

@@ -132,6 +132,10 @@ let state = {
             'http://unfixt.ru/static/music/masha.mp3'
         ],
         [
+            i18n.text("track/1"),
+            'http://unfixt.ru/static/music/masha.mp3'
+        ],
+        [
             i18n.text("track/11"),
             'http://unfixt.ru/static/music/popushoy.mp3'
         ],

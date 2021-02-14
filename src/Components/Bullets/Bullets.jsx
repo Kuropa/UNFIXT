@@ -35,23 +35,23 @@ const Bullets = () => {
             <Bullet
                 aos='fade-left'
                 postion='left'
-                src={mastering}
-                header={i18n.text('bullet/3/title')}
-                build={i18n.text('bullet/3/title_s')}
-                description={i18n.text('bullet/3/description')}
-                from={i18n.text("prices/from")}
-                price={i18n.text("prices/2/price")}
-                currency={i18n.text("prices/currency")}
-            />
-            <Bullet
-                aos='fade-right'
-                postion='right'
                 src={mixing}
                 header={i18n.text('bullet/4/title')}
                 build={i18n.text('bullet/4/title_s')}
                 description={i18n.text('bullet/4/description')}
                 from={i18n.text("prices/from")}
                 price={i18n.text("prices/1/price")}
+                currency={i18n.text("prices/currency")}
+            />
+            <Bullet
+                aos='fade-right'
+                postion='right'
+                src={mastering}
+                header={i18n.text('bullet/3/title')}
+                build={i18n.text('bullet/3/title_s')}
+                description={i18n.text('bullet/3/description')}
+                from={i18n.text("prices/from")}
+                price={i18n.text("prices/2/price")}
                 currency={i18n.text("prices/currency")}
             />
         </div>

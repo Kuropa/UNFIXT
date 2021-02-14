@@ -31,9 +31,9 @@ const Content = (props) => {
             <After/>
             {/*<Prices prices={props.state.prices}/>*/}
             <Bullets/>
-            <Before/>
-            <ABExamples audio={props.state.audio}/>
-            <After/>
+            {/*<Before/>*/}
+            {/*<ABExamples audio={props.state.audio}/>*/}
+            {/*<After/>*/}
             <NewRelease newRelease={props.state.newRelease}/>
             <Before/>
             <Music music={props.state.music}/>

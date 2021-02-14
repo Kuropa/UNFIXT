@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, useContext } from 'react'
 import playerContext from '../context/playerContext'
-import Playlist from "./playlist/Playlist";
 import styles from './Controls.module.css'
 import vol from '../../../Media/Icon/vol.svg'
 import play from '../../../Media/Icon/play.svg'
