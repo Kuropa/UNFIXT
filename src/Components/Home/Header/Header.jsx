@@ -8,7 +8,7 @@ import telegram from '../../Media/Icon/telega.svg';
 import WhatsApp from '../../Media/Icon/watsapp.svg';
 
 const Header = () => {
-    const currentLang = localStorage.getItem('lang') || 'EN';
+    const currentLang = localStorage.getItem('lang') || 'RU';
 
     const handleSelectChange = useCallback((e) => {
         localStorage.setItem('lang', e.currentTarget.value);
@@ -75,8 +75,8 @@ const Header = () => {
                 >{i18n.text('menu/contacts')}
                 </Link>
                 <select onChange={handleSelectChange}>
-                    <option value='EN' selected={currentLang === 'EN'}>EN</option>
                     <option value='RU' selected={currentLang === 'RU'}>RU</option>
+                    <option value='EN' selected={currentLang === 'EN'}>EN</option>
                 </select>
             </nav>
         </div>
