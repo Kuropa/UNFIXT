@@ -11,6 +11,7 @@ import facebook from './Components/Media/Icon/fb.svg';
 // Мокап диска с новым релизом
 import newCover from './Components/Media/Img/Disk-min.png';
 // Авторская музыка обложки
+import Imitating from './Components/Media/Cover/Imitating_a_crow.jpeg';
 import Solaris from './Components/Media/Cover/solaris-mini.png';
 import Ehe from './Components/Media/Cover/Paimon Bass House_mini-min.png';
 import Wonderland from './Components/Media/Cover/wonderland_mini-min.png';
@@ -33,18 +34,24 @@ let state = {
     newRelease: [
         {
             img: newCover,
-            title: 'SOLARIS',
+            title: 'Imitating a crow',
             Spotify: 'spotify:artist:65gqGF50z1RJWQmgVU0nEp',
             AppleMusic: 'https://music.apple.com/ru/artist/unfixt/1505885622',
-            YouTube: 'https://www.youtube.com/channel/UCBz7dDysICz71qlxM0Da0NQ',
+            YouTube: 'https://www.youtube.com/watch?v=IkAxqEOl_vM',
         }
     ],
     music: [
         {
+            title: 'Imitating a crow',
+            href: 'https://www.youtube.com/watch?v=IkAxqEOl_vM',
+            img: Imitating,
+            genre: 'Neurofunk\\Drum and Bass',
+        },
+        {
             title: 'SOLARIS',
             href: 'https://www.youtube.com/watch?v=NkImTzez8bE',
             img: Solaris,
-            genre: 'electronic\\experimental',
+            genre: 'Electronic\\Experimental',
         },
         {
             title: 'Ehe Te Nandayo',
