@@ -2,6 +2,7 @@
   "name": "unfixt-v2",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://unfixt.github.io",
   "dependencies": {
     "@dschoon/react-waves": "^3.0.3",
     "@testing-library/jest-dom": "^4.2.4",
@@ -21,7 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "upload": "./upload.sh"
+    "upload": "./upload.sh",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

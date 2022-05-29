@@ -11,7 +11,8 @@ import facebook from './Components/Media/Icon/fb.svg';
 // Мокап диска с новым релизом
 import newCover from './Components/Media/Img/Disk-min.png';
 // Авторская музыка обложки
-import Ehe from './Components/Media/Cover/Paimon Bass House_mini-min.png'
+import Solaris from './Components/Media/Cover/solaris-mini.png';
+import Ehe from './Components/Media/Cover/Paimon Bass House_mini-min.png';
 import Wonderland from './Components/Media/Cover/wonderland_mini-min.png';
 import TimeMachine from './Components/Media/Cover/Time_Machine_mini-min.png';
 import FullControl from './Components/Media/Cover/full_control_mini-min.png';
@@ -32,13 +33,19 @@ let state = {
     newRelease: [
         {
             img: newCover,
-            title: 'Ehe Te Nandayo',
+            title: 'SOLARIS',
             Spotify: 'spotify:artist:65gqGF50z1RJWQmgVU0nEp',
             AppleMusic: 'https://music.apple.com/ru/artist/unfixt/1505885622',
-            YouTube: 'https://www.youtube.com/embed/LyNjEyC-YN4',
+            YouTube: 'https://www.youtube.com/channel/UCBz7dDysICz71qlxM0Da0NQ',
         }
     ],
     music: [
+        {
+            title: 'SOLARIS',
+            href: 'https://www.youtube.com/watch?v=NkImTzez8bE',
+            img: Solaris,
+            genre: 'electronic\\experimental',
+        },
         {
             title: 'Ehe Te Nandayo',
             href: 'https://www.youtube.com/watch?v=LyNjEyC-YN4',
@@ -134,6 +141,10 @@ let state = {
         [
             i18n.text("track/1"),
             'http://unfixt.ru/static/music/masha.mp3'
+        ],
+        [
+            i18n.text("track/12"),
+            'http://unfixt.ru/static/music/Miras.mp3'
         ],
         [
             i18n.text("track/11"),

@@ -15,7 +15,7 @@ import Reviews from "../Reviews/Reviews";
 import Contacts from "../Contacts/Contacts";
 import ExampleVideo from "../ExampleVideo/ExampleVideo";
 import UpButton from "../UpButton/UpButton";
-import ABExamples from "../ABExamples/ABExamples";
+//import ABExamples from "../ABExamples/ABExamples";
 //import Prices from "../Prices/Prices";
 
 const Content = (props) => {

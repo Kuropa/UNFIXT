@@ -1,23 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './Music.module.css';
 import play from '../Media/Icon/play.svg';
 import {i18n} from '../../lib/i18n/i18n';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 
-const getSize = () => window.innerWidth < 1024 ? 2 : 3;
-
 const Music = (props) => {
-    const [w, setW] = useState(getSize());
-
-    useEffect(() => {
-        const resizeHandler = e => setW(getSize());
-
-        window.addEventListener('resize', resizeHandler);
-
-        return () => window.removeEventListener('resize', resizeHandler);
-    }, [setW]);
-
     const musicList = props.music.map(el => (
         <SwiperSlide key={el.title}>
             <div className={styles.slide}>
@@ -42,8 +30,22 @@ const Music = (props) => {
                     <p className={styles.header}><span className={styles.title}>{i18n.text('title')}</span>{i18n.text('music/title')}</p>
                 </div>
                 <Swiper
-                    spaceBetween={150}
-                    slidesPerView={w}
+                    spaceBetween={20}
+                    slidesPerView={1.5}
+                    breakpoints={{
+                        768: {
+                            slidesPerView: 1.5,
+                            spaceBetween: 20
+                        },
+                        1024: {
+                            slidesPerView: 2.5,
+                            spaceBetween: 20
+                        },
+                        1919: {
+                            slidesPerView: 2.5,
+                            spaceBetween: 20
+                        },
+                    }}
                     loop>
                     {musicList}
                 </Swiper>
