@@ -4,6 +4,7 @@ import Socials from './Socials/Socials';
 import Form from './Form/Form';
 
 const Contacts = (props) => {
+    let year = new Date().getFullYear()
     return (
         <div id='contacts'>
             <div className={styles.contacts}>
@@ -17,7 +18,7 @@ const Contacts = (props) => {
             </div>
             <div>
                 <p className={styles.copyright}>Copyright Unfixt</p>
-                <p className={styles.copyright}>2020-2021</p>
+                <p className={styles.copyright}>2020-{year}</p>
             </div>
         </div>
     )
