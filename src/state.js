@@ -143,55 +143,56 @@ let state = {
     examples: [
         [
             i18n.text("track/1"),
-            'http://unfixt.ru/static/music/masha.mp3'
+            '../music/masha.mp3masha.mp3'
+
         ],
         [
             i18n.text("track/1"),
-            'http://unfixt.ru/static/music/masha.mp3'
+            '../music/masha.mp3'
         ],
         [
             i18n.text("track/12"),
-            'http://unfixt.ru/static/music/Miras.mp3'
+            '../music/Miras.mp3'
         ],
         [
             i18n.text("track/11"),
-            'http://unfixt.ru/static/music/popushoy.mp3'
+            '../music/popushoy.mp3'
         ],
         [
             i18n.text("track/10"),
-            'http://unfixt.ru/static/music/teplo.mp3'
+            '../music/teplo.mp3'
         ],
         [
             i18n.text("track/2"),
-            'http://unfixt.ru/static/music/sobaka.mp3'
+            '../music/sobaka.mp3'
         ],
         [
             i18n.text("track/3"),
-            'http://unfixt.ru/static/music/hate.mp3'
+            '../music/hate.mp3'
         ],
         [
             i18n.text("track/4"),
-            'http://unfixt.ru/static/music/mike-mike.mp3'
+            '../music/mike-mike.mp3'
         ],
         [
             i18n.text("track/5"),
-            'http://unfixt.ru/static/music/anko.mp3'
+            '../music/anko.mp3'
         ],
         [
             i18n.text("track/6"),
-            'http://unfixt.ru/static/music/measure.mp3'
+            '../music/measure.mp3'
         ],
         [
             i18n.text("track/7"),
-            'http://unfixt.ru/static/music/found.mp3'
+            '../music/found.mp3'
         ],
         [
             i18n.text("track/8"),
-            'http://unfixt.ru/static/music/world-music.mp3'
+            '../music/world-music.mp3'
         ],
         [
             i18n.text("track/9"),
-            'http://unfixt.ru/static/music/anapa.mp3'
+            '../music/anapa.mp3'
         ],
     ],
     examplesVideo: [
