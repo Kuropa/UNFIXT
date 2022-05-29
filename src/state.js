@@ -143,7 +143,7 @@ let state = {
     examples: [
         [
             i18n.text("track/1"),
-            '../music/masha.mp3masha.mp3'
+            '../music/masha.mp3'
 
         ],
         [
