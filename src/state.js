@@ -143,56 +143,56 @@ let state = {
     examples: [
         [
             i18n.text("track/1"),
-            '../music/masha.mp3'
+            './Components/Media/Music/masha.mp3'
 
         ],
         [
             i18n.text("track/1"),
-            '../music/masha.mp3'
+            './Components/Media/Music/masha.mp3'
         ],
         [
             i18n.text("track/12"),
-            '../music/Miras.mp3'
+            './Components/Media/Music/Miras.mp3'
         ],
         [
             i18n.text("track/11"),
-            '../music/popushoy.mp3'
+            './Components/Media/Music/popushoy.mp3'
         ],
         [
             i18n.text("track/10"),
-            '../music/teplo.mp3'
+            './Components/Media/Music/teplo.mp3'
         ],
         [
             i18n.text("track/2"),
-            '../music/sobaka.mp3'
+            './Components/Media/Music/sobaka.mp3'
         ],
         [
             i18n.text("track/3"),
-            '../music/hate.mp3'
+            './Components/Media/Music/hate.mp3'
         ],
         [
             i18n.text("track/4"),
-            '../music/mike-mike.mp3'
+            './Components/Media/Music/mike-mike.mp3'
         ],
         [
             i18n.text("track/5"),
-            '../music/anko.mp3'
+            './Components/Media/Music/anko.mp3'
         ],
         [
             i18n.text("track/6"),
-            '../music/measure.mp3'
+            './Components/Media/Music/measure.mp3'
         ],
         [
             i18n.text("track/7"),
-            '../music/found.mp3'
+            './Components/Media/Music/found.mp3'
         ],
         [
             i18n.text("track/8"),
-            '../music/world-music.mp3'
+            './Components/Media/Music/world-music.mp3'
         ],
         [
             i18n.text("track/9"),
-            '../music/anapa.mp3'
+            './Components/Media/Music/anapa.mp3'
         ],
     ],
     examplesVideo: [
