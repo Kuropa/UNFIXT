@@ -8,6 +8,19 @@ import spotify from './Components/Media/Icon/spotify.svg';
 import instagram from './Components/Media/Icon/instagram.svg';
 import vk from './Components/Media/Icon/vk.svg';
 import facebook from './Components/Media/Icon/fb.svg';
+//Примеры работы
+import track1 from './Components/Media/ExamplesMusic/masha.mp3';
+import track12 from './Components/Media/ExamplesMusic/Miras.mp3';
+import track11 from './Components/Media/ExamplesMusic/popushoy.mp3';
+import track10 from './Components/Media/ExamplesMusic/teplo.mp3';
+import track2 from './Components/Media/ExamplesMusic/sobaka.mp3';
+import track3 from './Components/Media/ExamplesMusic/hate.mp3';
+import track4 from './Components/Media/ExamplesMusic/mike-mike.mp3';
+import track5 from './Components/Media/ExamplesMusic/anko.mp3';
+import track6 from './Components/Media/ExamplesMusic/measure.mp3';
+import track7 from './Components/Media/ExamplesMusic/found.mp3';
+import track8 from './Components/Media/ExamplesMusic/world-music.mp3';
+import track9 from './Components/Media/ExamplesMusic/anapa.mp3';
 // Мокап диска с новым релизом
 import newCover from './Components/Media/Img/Disk-min.png';
 // Авторская музыка обложки
@@ -143,56 +156,56 @@ let state = {
     examples: [
         [
             i18n.text("track/1"),
-            './Components/Media/Music/masha.mp3'
+            track1
 
         ],
         [
             i18n.text("track/1"),
-            './Components/Media/Music/masha.mp3'
+            track1
         ],
         [
             i18n.text("track/12"),
-            './Components/Media/Music/Miras.mp3'
+            track12
         ],
         [
             i18n.text("track/11"),
-            './Components/Media/Music/popushoy.mp3'
+            track11
         ],
         [
             i18n.text("track/10"),
-            './Components/Media/Music/teplo.mp3'
+            track10
         ],
         [
             i18n.text("track/2"),
-            './Components/Media/Music/sobaka.mp3'
+            track2
         ],
         [
             i18n.text("track/3"),
-            './Components/Media/Music/hate.mp3'
+            track3
         ],
         [
             i18n.text("track/4"),
-            './Components/Media/Music/mike-mike.mp3'
+            track4
         ],
         [
             i18n.text("track/5"),
-            './Components/Media/Music/anko.mp3'
+            track5
         ],
         [
             i18n.text("track/6"),
-            './Components/Media/Music/measure.mp3'
+            track6
         ],
         [
             i18n.text("track/7"),
-            './Components/Media/Music/found.mp3'
+            track7
         ],
         [
             i18n.text("track/8"),
-            './Components/Media/Music/world-music.mp3'
+            track8
         ],
         [
             i18n.text("track/9"),
-            './Components/Media/Music/anapa.mp3'
+            track9
         ],
     ],
     examplesVideo: [
