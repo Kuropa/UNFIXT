@@ -12,7 +12,7 @@ import facebook from './Components/Media/Icon/fb.svg';
 import track1 from './Components/Media/ExamplesMusic/masha.mp3';
 import track12 from './Components/Media/ExamplesMusic/Miras.mp3';
 import track11 from './Components/Media/ExamplesMusic/popushoy.mp3';
-import track10 from './Components/Media/ExamplesMusic/teplo.mp3';
+//import track10 from './Components/Media/ExamplesMusic/'; пусто
 import track2 from './Components/Media/ExamplesMusic/sobaka.mp3';
 import track3 from './Components/Media/ExamplesMusic/hate.mp3';
 import track4 from './Components/Media/ExamplesMusic/mike-mike.mp3';
@@ -21,6 +21,12 @@ import track6 from './Components/Media/ExamplesMusic/measure.mp3';
 import track7 from './Components/Media/ExamplesMusic/found.mp3';
 import track8 from './Components/Media/ExamplesMusic/world-music.mp3';
 import track9 from './Components/Media/ExamplesMusic/anapa.mp3';
+import track13 from './Components/Media/ExamplesMusic/noch.mp3';
+import track14 from './Components/Media/ExamplesMusic/vremya_rasstavstsya.mp3';
+import track15 from './Components/Media/ExamplesMusic/andro_nitro.mp3';
+import track16 from './Components/Media/ExamplesMusic/jony-intro.mp3';
+import track17 from './Components/Media/ExamplesMusic/smile.mp3';
+import track18 from './Components/Media/ExamplesMusic/METRO.mp3';
 // Мокап диска с новым релизом
 import newCover from './Components/Media/Img/Disk-min.png';
 // Авторская музыка обложки
@@ -155,55 +161,92 @@ let state = {
     ],
     examples: [
         [
-            i18n.text("track/1"),
-            track1
-
+            //Просыпается ночь
+            i18n.text("track/13"),
+            track13
         ],
         [
+            //Просыпается ночь
+            i18n.text("track/13"),
+            track13
+        ],
+        [
+            //Маша
             i18n.text("track/1"),
             track1
         ],
         [
+            //Мирас
             i18n.text("track/12"),
             track12
         ],
         [
+            //Попушой
             i18n.text("track/11"),
             track11
         ],
         [
-            i18n.text("track/10"),
-            track10
+            //Андро
+            i18n.text("track/15"),
+            track15
         ],
         [
+            //Джони
+            i18n.text("track/16"),
+            track16
+        ],
+        [
+            //Время расставаться
+            i18n.text("track/14"),
+            track14
+        ],
+        [
+            //Аудиобрендинг
+            i18n.text("track/18"),
+            track18
+        ],
+        [
+            //Стоны пожилой собаки
             i18n.text("track/2"),
             track2
         ],
         [
+            //Аранжировка (Ненавижу)
             i18n.text("track/3"),
             track3
         ],
         [
+            //Гитарная партия
             i18n.text("track/4"),
             track4
         ],
         [
+            //Прод
             i18n.text("track/5"),
             track5
         ],
         [
+            //Смайл
+            i18n.text("track/17"),
+            track17
+        ],
+        [
+            //Мизори
             i18n.text("track/6"),
             track6
         ],
         [
+            //Фаунд
             i18n.text("track/7"),
             track7
         ],
         [
+            //ВМ
             i18n.text("track/8"),
             track8
         ],
         [
+            //Анапа
             i18n.text("track/9"),
             track9
         ],
